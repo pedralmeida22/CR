@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Apr 21 16:51:21 2021
+# Process ID: 3152
+# Current directory: C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.runs/synth_1
+# Command line: vivado.exe -log CountDownTimer_part2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CountDownTimer_part2.tcl
+# Log file: C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.runs/synth_1/CountDownTimer_part2.vds
+# Journal file: C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CountDownTimer_part2.tcl -notrace
