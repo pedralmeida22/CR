@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Wed Apr 21 16:54:53 2021
+| Date         : Thu Apr 22 15:15:46 2021
 | Host         : DESKTOP-V8LEL7J running 64-bit major release  (build 9200)
 | Command      : report_methodology -file CountDownTimer_part2_methodology_drc_routed.rpt -pb CountDownTimer_part2_methodology_drc_routed.pb -rpx CountDownTimer_part2_methodology_drc_routed.rpx
 | Design       : CountDownTimer_part2
@@ -23,12 +23,13 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 24
+             Violations found: 25
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 2          |
 | TIMING-18 | Warning          | Missing input or output delay | 22         |
+| TIMING-20 | Warning          | Non-clocked latch             | 1          |
 +-----------+------------------+-------------------------------+------------+
 
 2. REPORT DETAILS
@@ -151,6 +152,11 @@ Related violations: <none>
 TIMING-18#22 Warning
 Missing input or output delay  
 An output delay is missing on seg[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch controlpath/running_reg cannot be properly analyzed as its control pin controlpath/running_reg/G is not reached by a timing clock
 Related violations: <none>
 
 

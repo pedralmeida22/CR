@@ -17,54 +17,55 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 14412
+INFO: [Synth 8-7075] Helper process launched with PID 7064
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 999.617 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1000.145 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'CountDownTimer_part2' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CountDownTimer_part2.vhd:19]
 INFO: [Synth 8-638] synthesizing module 'pulse_gen_1Hz' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_1Hz.vhd:31]
 INFO: [Synth 8-256] done synthesizing module 'pulse_gen_1Hz' (1#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_1Hz.vhd:31]
 INFO: [Synth 8-638] synthesizing module 'pulse_gen_2Hz' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_2Hz.vhd:31]
 INFO: [Synth 8-256] done synthesizing module 'pulse_gen_2Hz' (2#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_2Hz.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'pulse_gen_4Hz' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_4Hz.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'pulse_gen_4Hz' (3#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_4Hz.vhd:31]
 INFO: [Synth 8-638] synthesizing module 'pulse_gen_800Hz' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_800Hz.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'pulse_gen_800Hz' (3#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_800Hz.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'pulse_gen_800Hz' (4#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_800Hz.vhd:11]
 INFO: [Synth 8-638] synthesizing module 'ResetModule' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ResetModule.vhd:32]
 	Parameter N bound to: 4 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'ResetModule' (4#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ResetModule.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'ResetModule' (5#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ResetModule.vhd:32]
 INFO: [Synth 8-638] synthesizing module 'DebounceUnit' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/DebounceUnit.vhd:36]
 	Parameter kHzClkFreq bound to: 100000 - type: integer 
 	Parameter mSecMinInWidth bound to: 100 - type: integer 
 	Parameter inPolarity bound to: 1'b1 
 	Parameter outPolarity bound to: 1'b1 
-INFO: [Synth 8-256] done synthesizing module 'DebounceUnit' (5#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/DebounceUnit.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'DebounceUnit' (6#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/DebounceUnit.vhd:36]
 INFO: [Synth 8-638] synthesizing module 'ControlUnit2' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ControlUnit2.vhd:37]
-INFO: [Synth 8-256] done synthesizing module 'ControlUnit2' (6#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ControlUnit2.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'ControlUnit2' (7#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ControlUnit2.vhd:37]
 INFO: [Synth 8-638] synthesizing module 'ExecutionUnit2' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ExecutionUnit2.vhd:43]
 INFO: [Synth 8-638] synthesizing module 'CounterDown4_part2' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd:19]
 	Parameter MAX bound to: 9 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'CounterDown4_part2' (7#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'CounterDown4_part2' (8#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd:19]
 INFO: [Synth 8-638] synthesizing module 'CounterDown4_part2__parameterized0' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd:19]
 	Parameter MAX bound to: 5 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'CounterDown4_part2__parameterized0' (7#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd:19]
-INFO: [Synth 8-256] done synthesizing module 'ExecutionUnit2' (8#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ExecutionUnit2.vhd:43]
-WARNING: [Synth 8-614] signal 's_display' is read in the process but is not in the sensitivity list [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CountDownTimer_part2.vhd:122]
+INFO: [Synth 8-256] done synthesizing module 'CounterDown4_part2__parameterized0' (8#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'ExecutionUnit2' (9#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ExecutionUnit2.vhd:43]
 INFO: [Synth 8-638] synthesizing module 'Nexys4DispDriver2' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/Nexys4DispDriver.vhd:44]
 INFO: [Synth 8-226] default block is never used [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/Nexys4DispDriver.vhd:120]
-INFO: [Synth 8-256] done synthesizing module 'Nexys4DispDriver2' (9#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/Nexys4DispDriver.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'CountDownTimer_part2' (10#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CountDownTimer_part2.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Nexys4DispDriver2' (10#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/Nexys4DispDriver.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'CountDownTimer_part2' (11#1) [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CountDownTimer_part2.vhd:19]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1000.145 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1000.145 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1000.145 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 999.617 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1000.145 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -75,26 +76,26 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/CountDownTimer_part2_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 999.617 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1005.754 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 999.617 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1005.754 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'pState_reg' in module 'ControlUnit2'
 ---------------------------------------------------------------------------------------------------
@@ -108,8 +109,9 @@ INFO: [Synth 8-802] inferred FSM for state register 'pState_reg' in module 'Cont
                      run |                           100000 |                              000
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'pState_reg' using encoding 'one-hot' in module 'ControlUnit2'
+WARNING: [Synth 8-327] inferring latch for variable 'running_reg' [C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ControlUnit2.vhd:68]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -118,6 +120,7 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input   27 Bit       Adders := 1     
 	   2 Input   26 Bit       Adders := 1     
+	   2 Input   25 Bit       Adders := 1     
 	   2 Input   24 Bit       Adders := 3     
 	   2 Input   17 Bit       Adders := 1     
 	   2 Input    4 Bit       Adders := 4     
@@ -125,11 +128,12 @@ Detailed RTL Component Info :
 +---Registers : 
 	               27 Bit    Registers := 1     
 	               26 Bit    Registers := 1     
+	               25 Bit    Registers := 1     
 	               24 Bit    Registers := 3     
 	               17 Bit    Registers := 1     
 	                4 Bit    Registers := 3     
 	                3 Bit    Registers := 3     
-	                1 Bit    Registers := 16    
+	                1 Bit    Registers := 17    
 +---Muxes : 
 	   2 Input   27 Bit        Muxes := 1     
 	   2 Input   26 Bit        Muxes := 1     
@@ -145,7 +149,7 @@ Detailed RTL Component Info :
 	  16 Input    4 Bit        Muxes := 1     
 	   2 Input    3 Bit        Muxes := 8     
 	   2 Input    1 Bit        Muxes := 18    
-	   6 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -162,25 +166,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -198,37 +202,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -245,39 +249,43 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |    36|
-|3     |LUT1   |    84|
-|4     |LUT2   |    58|
-|5     |LUT3   |    21|
-|6     |LUT4   |    61|
-|7     |LUT5   |    36|
-|8     |LUT6   |    36|
-|9     |FDCE   |     4|
-|10    |FDRE   |   172|
-|11    |FDSE   |     9|
-|12    |IBUF   |     6|
-|13    |OBUF   |    17|
+|2     |CARRY4 |    42|
+|3     |LUT1   |    86|
+|4     |LUT2   |    84|
+|5     |LUT3   |    18|
+|6     |LUT4   |    65|
+|7     |LUT5   |    34|
+|8     |LUT6   |    38|
+|9     |MUXF7  |     2|
+|10    |MUXF8  |     1|
+|11    |FDCE   |     4|
+|12    |FDRE   |   198|
+|13    |FDSE   |     9|
+|14    |LD     |     1|
+|15    |IBUF   |     6|
+|16    |OBUF   |    17|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:47 . Memory (MB): peak = 999.617 ; gain = 0.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:51 . Memory (MB): peak = 999.617 ; gain = 0.000
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 1005.754 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 1005.754 ; gain = 5.609
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1010.602 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 36 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1005.754 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1013.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1008.578 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 1 instances were transformed.
+  LD => LDCE: 1 instance 
 
 INFO: [Common 17-83] Releasing license: Synthesis
-40 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+42 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 1013.297 ; gain = 13.680
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1008.578 ; gain = 8.434
 INFO: [Common 17-1381] The checkpoint 'C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.runs/synth_1/CountDownTimer_part2.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file CountDownTimer_part2_utilization_synth.rpt -pb CountDownTimer_part2_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 21 16:52:30 2021...
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 22 15:14:31 2021...

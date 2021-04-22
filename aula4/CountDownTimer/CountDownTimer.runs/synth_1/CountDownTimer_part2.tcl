@@ -94,6 +94,7 @@ read_vhdl -library xil_defaultlib {
   C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ResetModule.vhd
   C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/DebounceUnit.vhd
   C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/Nexys4DispDriver.vhd
+  C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/pulse_gen_4Hz.vhd
   C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CounterDown4_part2.vhd
   C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/ExecutionUnit2.vhd
   C:/Users/pedra/Desktop/cr/labs/aula4/CountDownTimer/CountDownTimer.srcs/sources_1/new/CountDownTimer_part2.vhd

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Wed Apr 21 16:54:53 2021
+| Date             : Thu Apr 22 15:15:46 2021
 | Host             : DESKTOP-V8LEL7J running 64-bit major release  (build 9200)
 | Command          : report_power -file CountDownTimer_part2_power_routed.rpt -pb CountDownTimer_part2_power_summary_routed.pb -rpx CountDownTimer_part2_power_routed.rpx
 | Design           : CountDownTimer_part2
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.103        |
+| Total On-Chip Power (W)  | 0.104        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.006        |
@@ -53,15 +53,16 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.002 |        3 |       --- |             --- |
-| Slice Logic    |     0.001 |      536 |       --- |             --- |
-|   LUT as Logic |     0.001 |      231 |     63400 |            0.36 |
-|   CARRY4       |    <0.001 |       36 |     15850 |            0.23 |
-|   Register     |    <0.001 |      185 |    126800 |            0.15 |
-|   Others       |     0.000 |       20 |       --- |             --- |
-| Signals        |     0.001 |      417 |       --- |             --- |
-| I/O            |     0.001 |       23 |       210 |           10.95 |
+| Slice Logic    |     0.002 |      604 |       --- |             --- |
+|   LUT as Logic |     0.001 |      251 |     63400 |            0.40 |
+|   CARRY4       |    <0.001 |       42 |     15850 |            0.26 |
+|   Register     |    <0.001 |      212 |    126800 |            0.17 |
+|   F7/F8 Muxes  |    <0.001 |        3 |     63400 |           <0.01 |
+|   Others       |     0.000 |       24 |       --- |             --- |
+| Signals        |     0.001 |      469 |       --- |             --- |
+| I/O            |     0.002 |       23 |       210 |           10.95 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.103 |          |           |                 |
+| Total          |     0.104 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +72,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.019 |       0.004 |      0.015 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.020 |       0.005 |      0.015 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.018 |       0.000 |      0.018 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.004 |       0.000 |      0.004 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
