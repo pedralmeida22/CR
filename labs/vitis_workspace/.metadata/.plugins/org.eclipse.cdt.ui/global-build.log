@@ -1,0 +1,25 @@
+Nothing to build in platform 'mb_basePlatform'
+
+10:48:30 **** Incremental Build of configuration Debug for project StartApp ****
+make all 
+'Building file: ../src/countDownTimer_interrupts.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/countDownTimer_interrupts.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/countDownTimer_interrupts.d" -MT"src/countDownTimer_interrupts.o" -o "src/countDownTimer_interrupts.o" "../src/countDownTimer_interrupts.c"
+../src/countDownTimer_interrupts.c: In function 'SetCountDownTimer':
+../src/countDownTimer_interrupts.c:307:2: warning: enumeration value 'Stopped' not handled in switch [-Wswitch]
+  307 |  switch(fsmState)
+      |  ^~~~~~
+../src/countDownTimer_interrupts.c:307:2: warning: enumeration value 'Started' not handled in switch [-Wswitch]
+'Finished building: ../src/countDownTimer_interrupts.c'
+' '
+'Building target: StartApp.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "StartApp.elf"  ./src/countDownTimer_interrupts.o ./src/countDownTimer_polling.o ./src/helloworld.o ./src/platform.o ./src/polling_examples.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: StartApp.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size StartApp.elf  |tee "StartApp.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12020	    400	   3140	  15560	   3cc8	StartApp.elf
+'Finished building: StartApp.elf.size'
+' '

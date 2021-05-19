@@ -1303,3 +1303,3551 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2021-05-08 15:46:30.513
 !MESSAGE Indexed 'StartApp' (2 sources, 52 headers) in 0.24 sec: 1,530 declarations; 2,216 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2021-05-19 09:53:03.684 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2021-05-19 09:53:11.254
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:17.050
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:17.051
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:17.066
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:17.068
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:17.073
+!MESSAGE XSCT Command: [setws C:/Users/pedra/Documents/CR/labs/vitis_workspace], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:17.076
+!MESSAGE XSCT command with result: [setws C:/Users/pedra/Documents/CR/labs/vitis_workspace], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:24.245
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-05-19 09:53:24.912
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-05-19 09:53:24.914
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2021-05-19 09:53:24.915
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:25.165
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:25.166
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 09:53:25.179
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:47.864
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:47.972
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:48.018
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:48.021
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Fri Apr 30 18:35:13 2021",
+"vivado_version": "2020.2",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:48.027
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:48.030
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, {"microblaze_0": "mb_design_i/microblaze_0:mb_design_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:48.031
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:48.037
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Result: [null, {"axi_gpio_buttons": {"hier_name": "axi_gpio_buttons",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_displays": {"hier_name": "axi_gpio_displays",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_leds": {"hier_name": "axi_gpio_leds",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_switches": {"hier_name": "axi_gpio_switches",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"fit_timer_0": {"hier_name": "fit_timer_0",
+"type": "fit_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:50.371
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:50.374
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:50.415
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:50.418
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:50.419
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:18:50.444
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:05.709
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:08.106
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:08.109
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:09.963
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:09.967
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:09.974
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:09.975
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:09.993
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.000
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.002
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.002
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.013
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.014
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.017
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.018
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.044
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.045
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.063
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.064
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.067
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn-Nexys4-210274504950A-13631093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.105
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.870
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:10.871
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:13.086
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:13.902
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:13.906
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:36.416
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:36.420
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:36.421
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:36.425
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:19:36.426
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:36.432
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:36.434
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.199
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.202
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.203
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.212
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.214
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_FREQ], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.219
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.345
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.350
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Result: [null, {}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.352
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.404
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0], Result: [null, {"axi_gpio_buttons": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872896,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872900,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872904,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073872908,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873180,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873192,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073873184,
+},
+},
+"axi_gpio_displays": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938432,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938436,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938440,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "8",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938444,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938716,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938728,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073938720,
+},
+},
+"axi_gpio_leds": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807360,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807364,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807368,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807372,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807644,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807656,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073807648,
+},
+},
+"axi_gpio_switches": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741824,
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "16",
+"interface": "S_AXI",
+"fields": {"Channel_1_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "16",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741828,
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741832,
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_2_GPIO_TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073741836,
+},
+"GIER": {"description": "Global_Interrupt_Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Global_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742108,
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742120,
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"Channel_1_Interrupt_Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel_2_Interrupt_Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1073742112,
+},
+},
+"axi_timer_0": {"TCSR0": {"description": "Timer 0 Control and Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Mode
+0 - Timer mode is generate
+1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT0": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 0
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT0": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 0
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT0": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 0
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT0": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 0.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.      0 = Hold counter or capture value. The TLR must be read before providing the external capture.      1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD0": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 0      0 = No load      1 = Loads timer with value in TLR0 Setting this bit loads timer/counter register (TCR0) with a specified value in the timer/counter load register (TLR0).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT0) bit in TCSR0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT0": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 0
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T0INT) in TCSR0.      0 - Disable interrupt signal   1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT0": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 0
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T0INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 0 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT   1 - Clear T0INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA0": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 0      0 - Disable pulse width modulation      1 - Enable pulse width modulation PWM requires using Timer 0 and Timer 1 together as a pair.  Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0 and C_GEN0_ASSERT and C_GEN1_ASSERT must be 1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run) This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. 
+Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CASC": {"access": "read-write",
+"bit_offset": "11",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable cascade mode of timers      0 - Disable cascaded operation      1 - Enable cascaded operation Cascaded operation requires using Timer 0 and Timer 1 together as a pair.  The counting event for the Timer 1 is when the Timer 0 rolls over from all 1s to all 0s or vice-versa when counting down.
+TLR0 and TLR1 are used for lower 32-bit and higher 32-bit respectively. Similarly, TCR0 contains lower 32-bits for the 64-bit counter and TCR1 contains the higher 32-bits.
+Only TCSR0 is valid for both the timer/counters in this mode.
+This CASC bit must be set before enabling the timer/counter.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101952,
+},
+"TLR0": {"description": "Timer 0 Load Register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR0": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101956,
+},
+"TCR0": {"description": "Timer 0 Counter Register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR0": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101960,
+},
+"TCSR1": {"description": "Timer 1 Control and Status Register",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"MDT1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Mode
+  0 - Timer mode is generate
+  1 - Timer mode is capture
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"UDT1": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Up/Down Count Timer 1
+  0 - Timer functions as up counter
+  1 - Timer functions as down counter
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"GENT1": {"access": "read-write",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Generate Signal Timer 1
+  0 - Disables external generate signal
+  1 - Enables external generate signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"CAPT1": {"access": "read-write",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable External Capture Trigger Timer 1
+  0 - Disables external capture trigger
+  1 - Enables external capture trigger
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ARHT1": {"access": "read-write",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Auto Reload/Hold Timer 1.
+When the timer is in Generate mode, this bit determines whether the counter reloads the generate value and continues running or holds at the termination value. 
+In Capture mode, this bit determines whether a new capture trigger overwrites the previous captured value or if the previous value is held.
+0 = Hold counter or capture value. The TLR must be read before providing the external capture.   
+1 = Reload generate value or overwrite capture value
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"LOAD1": {"access": "read-write",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Load Timer 1      0 = No load      1 = Loads timer with value in TLR1 Setting this bit loads timer/counter register (TCR1) with a specified value in the timer/counter load register (TLR1).  This bit prevents the running of the timer/counter; hence, this should be cleared alongside setting Enable Timer/ Counter (ENT1) bit in TCSR1.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENIT1": {"access": "read-write",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Interrupt for Timer 1
+Enables the assertion of the interrupt signal for this timer. Has no effect on the interrupt flag (T1INT) in TCSR1.      0 - Disable interrupt signal      1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENT1": {"access": "read-write",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Timer 1
+  0 - Disable timer (counter halts)
+  1 - Enable timer (counter runs)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"T1INT": {"access": "read-write",
+"bit_offset": "8",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Timer 1 Interrupt
+Indicates that the condition for an interrupt on this timer has occurred. If the timer mode is capture and the timer is enabled, this bit indicates a capture has occurred. If the mode is generate, this bit indicates the counter has rolled over. Must be cleared by writing a 1.
+Read:      0 - No interrupt has occurred      1 - Interrupt has occurred  Write:      0 - No change in state of T0INT      1 - Clear T1INT (clear to 0)
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"PWMA1": {"access": "read-write",
+"bit_offset": "9",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Pulse Width Modulation for Timer 1      0 - Disable pulse width modulation      1 - Enable pulse width modulation  PWM requires using Timer 0 and Timer 1 together as a pair. Timer 0 sets the period of the PWM output, and Timer 1 sets the high time for the PWM output. For PWM mode, MDT0 and MDT1 must be 0.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"ENALL": {"access": "read-write",
+"bit_offset": "10",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable All Timers      0 - No effect on timers      1 - Enable all timers (counters run)  This bit is mirrored in all control/status registers and is used to enable all counters simultaneously. Writing a 1 to this bit sets ENALL, ENT0, and ENT1. Writing a 0 to this register clears ENALL but has no effect on ENT0 and ENT1. 
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101968,
+},
+"TLR1": {"description": "Timer 1 Load Register",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCLR1": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Load Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101972,
+},
+"TCR1": {"description": "Timer 1 Counter Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TCR1": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Timer/Counter Register
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1103101976,
+},
+},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616452,
+},
+"IVAR[2]": {"description": "Interrupt Vector Address Register 2",
+"address_offset": "0x108",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 2 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616456,
+},
+"IVAR[3]": {"description": "Interrupt Vector Address Register 3",
+"address_offset": "0x10C",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 3 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616460,
+},
+"IVAR[4]": {"description": "Interrupt Vector Address Register 4",
+"address_offset": "0x110",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 4 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616464,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.409
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.417
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0], Result: [null, {"axi_gpio_switches_S_AXI": {"name": "axi_gpio_switches",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_leds_S_AXI": {"name": "axi_gpio_leds",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_buttons_S_AXI": {"name": "axi_gpio_buttons",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_displays_S_AXI": {"name": "axi_gpio_displays",
+"base": "0x40030000",
+"high": "0x4003FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.418
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.423
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.425
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa mdm_1], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.428
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa mdm_1], Result: [null, {}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.429
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa mdm_1], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.447
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.449
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa mdm_1], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.454
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.455
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.458
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.460
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.463
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.465
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.479
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.480
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.489
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.491
+!MESSAGE XSCT Command: [version -server], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.494
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.495
+!MESSAGE XSCT Command: [version], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.496
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.498
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.526
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.527
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.559
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.561
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.570
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.571
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.594
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.595
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.601
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.602
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.624
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.625
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.631
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.632
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.650
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.653
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.659
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504950A]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.660
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.680
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.681
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.711
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.712
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.713
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.715
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.731
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.764
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.771
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.772
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.791
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.792
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.835
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:19:59.836
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.034
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.066
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.096
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.097
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.195
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Result: [null, mb_design_wrapper]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.196
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.200
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.202
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.224
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.225
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.229
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:02.231
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.235
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.236
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.256
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.257
+!MESSAGE XSCT Command: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.395
+!MESSAGE XSCT command with result: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.556
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.580
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.580
+!MESSAGE XSCT Command: [con], Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:20:05.815
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-9: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:07.577
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:07.584
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:07.585
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:07.589
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:23:07.590
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:07.591
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:07.594
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.572
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-256
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.594
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-256
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.603
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.610
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.611
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.630
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.630
+!MESSAGE XSCT Command: [version -server], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.631
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.632
+!MESSAGE XSCT Command: [version], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.633
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.634
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.641
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.642
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.662
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.663
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.670
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.671
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.690
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.691
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.697
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.698
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.717
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.717
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.725
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.726
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.748
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.749
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.756
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.757
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.782
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.782
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.803
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.804
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.809
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.826
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.834
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.834
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.854
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.856
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.901
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:24.902
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.114
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.152
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.179
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.180
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.415
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Result: [null, mb_design_wrapper_1]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.416
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.418
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.419
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.437
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.438
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.443
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:27.443
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.457
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.458
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.476
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.477
+!MESSAGE XSCT Command: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.589
+!MESSAGE XSCT command with result: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.693
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.712
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.713
+!MESSAGE XSCT Command: [con], Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:23:30.923
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-15: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:19.571
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:19.576
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:19.577
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:19.581
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:30:19.583
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:19.586
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:19.588
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-13: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:28.995
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:28.998
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.221
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.223
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.224
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.232
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.233
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.243
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.244
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.266
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.267
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.304
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:44.305
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:46.506
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:47.319
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:47.324
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.847
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-336
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.853
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-336
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.863
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.870
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.870
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.883
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.884
+!MESSAGE XSCT Command: [version -server], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.896
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.897
+!MESSAGE XSCT Command: [version], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.898
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.899
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.907
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.908
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.930
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.931
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.938
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.939
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.961
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.962
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.969
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.969
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.988
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.988
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.996
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:58.997
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.018
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.019
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.026
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.026
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.046
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.047
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.066
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.067
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.069
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.088
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.095
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.096
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.115
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.116
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.155
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:30:59.156
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.363
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.399
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.428
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.430
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.448
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Result: [null, mb_design_wrapper_1]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.450
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.453
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.454
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.477
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.479
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.487
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:01.488
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.501
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.503
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.526
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.527
+!MESSAGE XSCT Command: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.691
+!MESSAGE XSCT command with result: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.786
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.830
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:04.831
+!MESSAGE XSCT Command: [con], Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:31:05.047
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-17: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:39.895
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:39.900
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:39.901
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:39.905
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:41:39.905
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:39.906
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:39.909
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:53.962
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:53.967
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:53.968
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:53.972
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:41:53.973
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:53.974
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:41:53.977
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-23: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:42:55.613
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:42:55.616
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.475
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.478
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.478
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.487
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.487
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.502
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.503
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.523
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.524
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.570
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:10.571
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:12.782
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:13.589
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:13.597
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.315
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-427
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.318
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-427
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.335
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.341
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.342
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.358
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.359
+!MESSAGE XSCT Command: [version -server], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.361
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.362
+!MESSAGE XSCT Command: [version], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.363
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.364
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.372
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.373
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.401
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.402
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.411
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.411
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.430
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.431
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.438
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.439
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.457
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.458
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.465
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.466
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.484
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.485
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.492
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.492
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.511
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.512
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.533
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.534
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.535
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.559
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.570
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.570
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.589
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.590
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.628
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:35.629
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.852
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.898
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.925
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.925
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.942
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Result: [null, mb_design_wrapper_1]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.942
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.972
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.973
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:37.998
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:38.001
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:38.007
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:38.008
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.022
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.023
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.042
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.043
+!MESSAGE XSCT Command: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.156
+!MESSAGE XSCT command with result: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.242
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.265
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.266
+!MESSAGE XSCT Command: [con], Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:43:41.474
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-22: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:07.318
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:07.325
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:07.326
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:07.332
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:47:07.332
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:07.333
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:07.337
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.564
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-477
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.568
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-477
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.581
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.586
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.587
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.598
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.599
+!MESSAGE XSCT Command: [version -server], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.601
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.602
+!MESSAGE XSCT Command: [version], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.603
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.604
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.614
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.615
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.641
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.641
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.649
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.649
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.671
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.672
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.679
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.680
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.698
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.698
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.709
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.710
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.730
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.731
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.741
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.743
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.767
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.768
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.787
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.788
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.790
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.809
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.818
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.818
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.837
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.839
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.884
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:44.885
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.098
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.132
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.163
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.163
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.177
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Result: [null, mb_design_wrapper_1]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.178
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.180
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.181
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.205
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.206
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.211
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:47.212
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.224
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.225
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.262
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.263
+!MESSAGE XSCT Command: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.384
+!MESSAGE XSCT command with result: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.458
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.529
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.529
+!MESSAGE XSCT Command: [con], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:47:50.740
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:30.441
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:30.447
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:30.448
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:30.453
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-19 10:48:30.454
+!MESSAGE Generating MD5 hash for file: C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform\sw\mb_basePlatform\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:30.455
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:30.458
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/sw/mb_basePlatform/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.586
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-527
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.590
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-527
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.604
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.610
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#7]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.611
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.623
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.624
+!MESSAGE XSCT Command: [version -server], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.626
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.626
+!MESSAGE XSCT Command: [version], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.628
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.628
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.638
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.638
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.669
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.670
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.684
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.684
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.709
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.710
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.720
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.721
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.751
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.752
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.764
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.767
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.787
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.788
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.797
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.797
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.819
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.820
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.848
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504950A" && level == 0}], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.849
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.863
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.892
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.900
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504950A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.901
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.924
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.925
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.997
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:36.997
+!MESSAGE XSCT Command: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.191
+!MESSAGE XSCT command with result: [fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/_ide/bitstream/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.220
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.243
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.246
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.265
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/export/mb_basePlatform/hw/mb_basePlatform.xsa -regs], Result: [null, mb_design_wrapper_1]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.265
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.267
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.268
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.292
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.293
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.302
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:39.303
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.313
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.316
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.345
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.346
+!MESSAGE XSCT Command: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.475
+!MESSAGE XSCT command with result: [dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/StartApp/Debug/StartApp.elf], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.550
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.593
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.594
+!MESSAGE XSCT Command: [con], Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 10:48:42.816
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-20: Launching SystemDebugger_StartApp_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 11:06:04.480
+!MESSAGE XSCT Command: [disconnect tcfchan#7], Thread: Thread-570
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-19 11:06:04.486
+!MESSAGE XSCT command with result: [disconnect tcfchan#7], Result: [null, ]. Thread: Thread-570
