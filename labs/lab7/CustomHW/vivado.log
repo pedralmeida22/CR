@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 24 22:47:56 2021
+# Process ID: 9108
+# Current directory: C:/Users/pedra/Documents/CR/labs/lab7/CustomHW
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17700 C:\Users\pedra\Documents\CR\labs\lab7\CustomHW\CustomHW.xpr
+# Log file: C:/Users/pedra/Documents/CR/labs/lab7/CustomHW/vivado.log
+# Journal file: C:/Users/pedra/Documents/CR/labs/lab7/CustomHW\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pedra/Documents/CR/labs/lab7/CustomHW/CustomHW.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 1000.812 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 24 22:48:50 2021...

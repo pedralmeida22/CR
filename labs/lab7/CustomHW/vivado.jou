@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon May 24 22:47:56 2021
+# Process ID: 9108
+# Current directory: C:/Users/pedra/Documents/CR/labs/lab7/CustomHW
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17700 C:\Users\pedra\Documents\CR\labs\lab7\CustomHW\CustomHW.xpr
+# Log file: C:/Users/pedra/Documents/CR/labs/lab7/CustomHW/vivado.log
+# Journal file: C:/Users/pedra/Documents/CR/labs/lab7/CustomHW\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pedra/Documents/CR/labs/lab7/CustomHW/CustomHW.xpr
+update_compile_order -fileset sources_1
