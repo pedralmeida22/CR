@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="helloooo_system" platform="C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm" platformUID="xilinx:nexys4::0.0(custom)" sysConfig="mb_design_wrapper_1" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.235388791">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.744856302">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

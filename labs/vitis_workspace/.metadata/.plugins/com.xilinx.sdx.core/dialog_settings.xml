@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform;C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_design_wrapper\export\mb_design_wrapper;C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_design_custom_periph\export\mb_design_custom_periph"/>
+	<item key="sdx.custom.platform.repository.locations" value="C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_basePlatform\export\mb_basePlatform;C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_design_wrapper\export\mb_design_wrapper;C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_design_custom_periph\export\mb_design_custom_periph;C:\Users\pedra\Documents\CR\labs\vitis_workspace\mb_design_wrapper_1\export\mb_design_wrapper_1"/>
 </section>
