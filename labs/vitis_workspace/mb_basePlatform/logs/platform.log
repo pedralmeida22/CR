@@ -1093,3 +1093,98 @@ TRACE::2021-05-19.10:19:36::SCWMssOS::Checking the sw design at  C:/Users/pedra/
 TRACE::2021-05-19.10:19:36::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2021-05-19.10:19:36::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-26.10:09:53::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-05-26.10:09:53::SCWPlatform::Opened new HwDB with name mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWReader::Active system found as  mb_basePlatform
+TRACE::2021-05-26.10:09:53::SCWReader::Handling sysconfig mb_basePlatform
+TRACE::2021-05-26.10:09:53::SCWDomain::checking for install qemu data   : 
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-26.10:09:53::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-26.10:09:53::SCWMssOS::No sw design opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::mss exists loading the mss file  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::Opened the sw design from mss  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::Adding the swdes entry C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system_0
+TRACE::2021-05-26.10:09:53::SCWMssOS::updating the scw layer about changes
+TRACE::2021-05-26.10:09:53::SCWMssOS::Opened the sw design.  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-26.10:09:53::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-26.10:09:53::SCWMssOS::Commit changes completed.
+TRACE::2021-05-26.10:09:53::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2021-05-26.10:09:53::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/hw/mb_basePlatform.xsa
+TRACE::2021-05-26.10:09:53::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-26.10:09:53::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Opened existing hwdb mb_design_wrapper_2
+TRACE::2021-05-26.10:09:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-26.10:09:53::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss|system_0||
+C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-26.10:09:53::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-26.10:09:53::SCWReader::No isolation master present  
+TRACE::2021-05-26.10:09:53::SCWMssOS::cleaning the bsp 
+TRACE::2021-05-26.10:09:53::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_basePlatform/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2021-05-26.10:09:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2021-05-26.10:09:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2021-05-26.10:09:54::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2021-05-26.10:09:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2021-05-26.10:09:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2021-05-26.10:09:55::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2021-05-26.10:09:55::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2021-05-26.10:09:55::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+

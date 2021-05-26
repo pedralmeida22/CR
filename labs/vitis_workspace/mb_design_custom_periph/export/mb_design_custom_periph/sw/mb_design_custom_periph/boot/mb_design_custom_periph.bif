@@ -1,0 +1,6 @@
+/*mb_design_custom_periph*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

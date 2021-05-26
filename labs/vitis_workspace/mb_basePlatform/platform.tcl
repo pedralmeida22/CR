@@ -18,3 +18,4 @@ platform generate -domains
 platform active {mb_basePlatform}
 platform generate -quick
 platform generate
+platform clean
