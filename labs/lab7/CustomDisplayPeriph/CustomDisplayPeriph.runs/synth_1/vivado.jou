@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed May 26 16:03:19 2021
-# Process ID: 23856
+# Start of session at: Sat May 29 19:30:31 2021
+# Process ID: 6528
 # Current directory: C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.runs/synth_1
 # Command line: vivado.exe -log mb_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_wrapper.tcl
 # Log file: C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.runs/synth_1/mb_design_wrapper.vds

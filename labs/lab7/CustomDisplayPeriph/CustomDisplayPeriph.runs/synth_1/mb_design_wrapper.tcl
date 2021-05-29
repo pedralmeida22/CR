@@ -70,7 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -119,7 +118,7 @@ set_property used_in_implementation false [get_files -all c:/Users/pedra/Documen
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/mb_design_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/mb_design_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/data/mb_bootloop_le.elf]
 
 OPTRACE "Adding files" END { }

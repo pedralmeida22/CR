@@ -571,3 +571,342 @@ org.eclipse.core.runtime.CoreException: CDT Project already configured
 22:07:10 ERROR : Unexpected exception occurred while writing platform project 'CustomDisplayPeriph' log.
 22:07:10 INFO  : Platform 'mb_design_wrapper_1' is added to custom repositories.
 22:07:12 INFO  : Platform 'mb_design_wrapper_1' is added to custom repositories.
+18:34:41 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\pedra\Documents\CR\labs\vitis_workspace\temp_xsdb_launch_script.tcl
+18:34:47 INFO  : XSCT server has started successfully.
+18:34:47 INFO  : Successfully done setting XSCT server connection channel  
+18:34:47 INFO  : plnx-install-location is set to ''
+18:34:47 INFO  : Successfully done setting workspace for the tool. 
+18:34:58 INFO  : Platform repository initialization has completed.
+18:35:01 INFO  : Registering command handlers for Vitis TCF services
+18:35:08 INFO  : Successfully done query RDI_DATADIR 
+18:38:17 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+18:38:17 INFO  : Result from executing command 'getPlatforms': mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+18:38:17 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:38:17 INFO  : Platform 'CustomDisplayPeriph' is added to custom repositories.
+18:38:21 INFO  : Platform 'CustomDisplayPeriph' is added to custom repositories.
+18:41:11 INFO  : Checking for BSP changes to sync application flags for project 'custom_display_periph'...
+18:41:11 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph/export/CustomDisplayPeriph/hw/CustomDisplayPeriph.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+18:41:11 ERROR : Failed to update application flags from BSP for 'custom_display_periph'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+18:43:41 INFO  : Checking for BSP changes to sync application flags for project 'custom_display_periph'...
+18:43:41 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph/export/CustomDisplayPeriph/hw/CustomDisplayPeriph.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+18:43:41 ERROR : Failed to update application flags from BSP for 'custom_display_periph'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.generateMakefiles(XilinxGnuMakefileGenerator.java:40)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1008)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+18:56:57 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+18:56:58 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph/export/CustomDisplayPeriph/CustomDisplayPeriph.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+19:38:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\pedra\Documents\CR\labs\vitis_workspace\temp_xsdb_launch_script.tcl
+19:38:15 INFO  : XSCT server has started successfully.
+19:38:15 INFO  : plnx-install-location is set to ''
+19:38:15 INFO  : Successfully done setting XSCT server connection channel  
+19:38:15 INFO  : Successfully done setting workspace for the tool. 
+19:38:23 INFO  : Platform repository initialization has completed.
+19:38:23 INFO  : Registering command handlers for Vitis TCF services
+19:38:27 INFO  : Successfully done query RDI_DATADIR 
+19:48:14 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+19:48:14 INFO  : Result from executing command 'getPlatforms': mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+19:48:14 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:48:14 INFO  : Platform 'CustomDisplayPeriph_1' is added to custom repositories.
+19:48:17 INFO  : Platform 'CustomDisplayPeriph_1' is added to custom repositories.
+19:50:29 INFO  : Bit file 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomPeriph/_ide/bitstream/download.bit' is generated.
+19:50:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:50:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+19:50:36 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomPeriph/_ide/bitstream/download.bit"
+19:50:59 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+19:50:59 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+19:50:59 ERROR : Failed to update application flags from BSP for 'displays'. Reason: null
+java.lang.NullPointerException
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.<init>(SDxSwPlatform.java:305)
+	at com.xilinx.sdx.sw.internal.SDxSwPlatform.create(SDxSwPlatform.java:214)
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getSwPlatform(SdkPlatformHelper.java:61)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.getSwPlatform(SdkMakefileGenerationListener.java:160)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.syncAppFlags(SdkMakefileGenerationListener.java:78)
+	at com.xilinx.sdx.sdk.core.build.SdkMakefileGenerationListener.preMakefileGeneration(SdkMakefileGenerationListener.java:48)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.notifyPreMakefileGenerationListeners(XilinxGnuMakefileGenerator.java:91)
+	at com.xilinx.sdk.managedbuilder.XilinxGnuMakefileGenerator.regenerateMakefiles(XilinxGnuMakefileGenerator.java:75)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performMakefileGeneration(CommonBuilder.java:1006)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPrebuildGeneration(CommonBuilder.java:873)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:748)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:513)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:515)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:412)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+19:50:59 ERROR : Failed to compute checksum of hardware specification file used by project 'displays'
+19:50:59 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+19:50:59 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+19:50:59 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+20:00:35 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+20:00:35 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+20:01:35 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+20:01:35 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+20:01:35 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+20:02:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:02:32 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+20:02:32 INFO  : 'jtag frequency' command is executed.
+20:02:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+20:02:34 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit"
+20:02:34 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:34 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa'.
+20:02:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:02:34 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:34 INFO  : System reset is completed.
+20:02:37 INFO  : 'after 3000' command is executed.
+20:02:38 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:38 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf' is downloaded to processor 'microblaze_0'.
+20:02:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf
+----------------End of Script----------------
+
+20:02:38 INFO  : Context for processor 'microblaze_0' is selected.
+20:02:38 INFO  : 'con' command is executed.
+20:02:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:02:38 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
+21:34:45 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:03:01 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:04:05 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:05:45 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:06:28 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:08:10 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:10:44 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:11:11 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:11:31 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:11:39 INFO  : Disconnected from the channel tcfchan#1.
+22:11:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:11:40 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+22:11:40 INFO  : 'jtag frequency' command is executed.
+22:11:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+22:11:42 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit"
+22:11:42 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa'.
+22:11:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:11:42 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:42 INFO  : System reset is completed.
+22:11:45 INFO  : 'after 3000' command is executed.
+22:11:45 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:45 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf' is downloaded to processor 'microblaze_0'.
+22:11:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf
+----------------End of Script----------------
+
+22:11:45 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:45 INFO  : 'con' command is executed.
+22:11:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:11:45 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
+22:22:20 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:22:31 INFO  : Disconnected from the channel tcfchan#10.
+22:22:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:22:31 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+22:22:31 INFO  : 'jtag frequency' command is executed.
+22:22:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+22:22:34 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit"
+22:22:34 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:34 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa'.
+22:22:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:22:34 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:34 INFO  : System reset is completed.
+22:22:37 INFO  : 'after 3000' command is executed.
+22:22:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:37 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf' is downloaded to processor 'microblaze_0'.
+22:22:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf
+----------------End of Script----------------
+
+22:22:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:22:37 INFO  : 'con' command is executed.
+22:22:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:22:37 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
+22:23:29 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:23:41 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:23:48 INFO  : Disconnected from the channel tcfchan#11.
+22:23:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:23:48 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+22:23:48 INFO  : 'jtag frequency' command is executed.
+22:23:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+22:23:50 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit"
+22:23:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa'.
+22:23:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:23:51 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:51 INFO  : System reset is completed.
+22:23:54 INFO  : 'after 3000' command is executed.
+22:23:54 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:54 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf' is downloaded to processor 'microblaze_0'.
+22:23:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf
+----------------End of Script----------------
+
+22:23:54 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:54 INFO  : 'con' command is executed.
+22:23:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:23:54 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
+22:25:52 INFO  : Checking for BSP changes to sync application flags for project 'displays'...
+22:25:58 INFO  : Disconnected from the channel tcfchan#12.
+22:25:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:25:59 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+22:25:59 INFO  : 'jtag frequency' command is executed.
+22:25:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+22:26:01 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit"
+22:26:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa'.
+22:26:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:26:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:01 INFO  : System reset is completed.
+22:26:04 INFO  : 'after 3000' command is executed.
+22:26:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:04 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf' is downloaded to processor 'microblaze_0'.
+22:26:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/_ide/bitstream/CustomDisplayPeriph.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/displays/Debug/displays.elf
+----------------End of Script----------------
+
+22:26:04 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:04 INFO  : 'con' command is executed.
+22:26:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:26:04 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
+22:26:38 INFO  : Disconnected from the channel tcfchan#13.

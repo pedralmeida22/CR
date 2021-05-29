@@ -244,13 +244,9 @@ proc create_root_design { parentCell } {
   # Create interface ports
   set dip_switches_16bits [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 dip_switches_16bits ]
 
-  set dual_seven_seg_led_disp [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 dual_seven_seg_led_disp ]
-
   set led_16bits [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 led_16bits ]
 
   set push_buttons_5bits [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 push_buttons_5bits ]
-
-  set seven_seg_led_an [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:gpio_rtl:1.0 seven_seg_led_an ]
 
   set usb_uart [ create_bd_intf_port -mode Master -vlnv xilinx.com:interface:uart_rtl:1.0 usb_uart ]
 

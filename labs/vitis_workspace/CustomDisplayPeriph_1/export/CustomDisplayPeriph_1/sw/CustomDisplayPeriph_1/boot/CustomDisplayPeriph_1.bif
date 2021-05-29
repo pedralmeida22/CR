@@ -1,0 +1,6 @@
+/*CustomDisplayPeriph_1*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

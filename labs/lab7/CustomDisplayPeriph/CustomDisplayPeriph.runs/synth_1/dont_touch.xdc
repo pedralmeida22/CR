@@ -137,4 +137,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filte
 
 # XDC: c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0_ooc.xdc
 
-# XDC: C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/mb_design_ooc.xdc
+# XDC: c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/mb_design_ooc.xdc

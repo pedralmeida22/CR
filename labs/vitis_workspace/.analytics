@@ -51,3 +51,56 @@ timestamp=[2021-05-26 21:53:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00
 timestamp=[2021-05-26 21:55:45], mode=APP_CREATION, duration=0:00:12.326, duration_ms=12326, data={name=CustomDisplayPeriph, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=C:\Users\pedra\Documents\CR\labs\vitis_workspace\CustomDisplayPeriph\export\CustomDisplayPeriph\CustomDisplayPeriph.xpfm, application_type=application}
 timestamp=[2021-05-26 21:58:38], mode=APP_CREATION, duration=0:00:03.029, duration_ms=3029, data={name=CustomDisplayPeriph, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=C:\Users\pedra\Documents\CR\labs\vitis_workspace\CustomDisplayPeriph\export\CustomDisplayPeriph\CustomDisplayPeriph.xpfm, application_type=application}
 timestamp=[2021-05-26 22:07:12], mode=APP_CREATION, duration=0:00:04.123, duration_ms=4123, data={name=helloooo, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_design_wrapper_1, application_type=application}
+timestamp=[2021-05-28 18:34:55], mode=WORKBENCH_START, duration=0:00:23.702, duration_ms=23702, data={}
+timestamp=[2021-05-28 18:34:57], mode=WORKBENCH_UI_INIT, duration=0:00:01.753, duration_ms=1753, data={editors_count=0, platform_editors_count=0, projects_count=11, platform_projects_count=4, active_platform_editor=false, projects=CustomPeriph,CustomPeriph_system,RemoteSystemsTempFiles,StartApp,StartApp_system,custom_HW,custom_HW_system,mb_basePlatform,mb_design_custom_periph,mb_design_wrapper,mb_design_wrapper_1}
+timestamp=[2021-05-28 18:34:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.465, duration_ms=465, data={}
+timestamp=[2021-05-28 18:38:21], mode=APP_CREATION, duration=0:00:19.209, duration_ms=19209, data={name=custom_display_periph, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=CustomDisplayPeriph, application_type=application}
+timestamp=[2021-05-28 18:41:11], mode=PLATFORM_GENERATION, duration=0:00:10.168, duration_ms=10168, data={name=CustomDisplayPeriph}
+timestamp=[2021-05-28 18:41:12], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=custom_display_periph, configuration=Debug, clean_build=false}
+timestamp=[2021-05-28 18:43:41], mode=PLATFORM_GENERATION, duration=0:00:06.849, duration_ms=6849, data={name=CustomDisplayPeriph}
+timestamp=[2021-05-28 18:43:42], mode=BUILD, duration=0:00:01.056, duration_ms=1056, data={name=custom_display_periph, configuration=Debug, clean_build=false}
+timestamp=[2021-05-28 18:56:40], mode=PLATFORM_GENERATION, duration=0:00:07.220, duration_ms=7220, data={name=CustomDisplayPeriph}
+timestamp=[2021-05-28 18:56:58], mode=PLATFORM_GENERATION, duration=0:00:13.038, duration_ms=13038, data={name=CustomDisplayPeriph}
+timestamp=[2021-05-29 19:38:21], mode=WORKBENCH_START, duration=0:00:17.872, duration_ms=17872, data={}
+timestamp=[2021-05-29 19:38:22], mode=WORKBENCH_UI_INIT, duration=0:00:01.347, duration_ms=1347, data={editors_count=5, platform_editors_count=0, projects_count=14, platform_projects_count=4, active_platform_editor=false, projects=CustomDisplayPeriph,CustomPeriph,CustomPeriph_system,RemoteSystemsTempFiles,StartApp,StartApp_system,custom_HW,custom_HW_system,custom_display_periph,custom_display_periph_system,mb_basePlatform,mb_design_custom_periph,mb_design_wrapper,mb_design_wrapper_1}
+timestamp=[2021-05-29 19:38:23], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.316, duration_ms=316, data={}
+timestamp=[2021-05-29 19:48:17], mode=APP_CREATION, duration=0:00:11.454, duration_ms=11454, data={name=displays, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=CustomDisplayPeriph_1, application_type=application}
+timestamp=[2021-05-29 19:50:59], mode=PLATFORM_GENERATION, duration=0:00:04.729, duration_ms=4729, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 19:50:59], mode=BUILD, duration=0:00:00.338, duration_ms=338, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 19:51:02], mode=BUILD, duration=0:00:02.904, duration_ms=2904, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 19:57:46], mode=PLATFORM_GENERATION, duration=0:00:02.984, duration_ms=2984, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 19:57:53], mode=PLATFORM_GENERATION, duration=0:00:03.121, duration_ms=3121, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 20:00:25], mode=PLATFORM_GENERATION, duration=0:00:03.035, duration_ms=3035, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 20:00:35], mode=PLATFORM_GENERATION, duration=0:00:06.804, duration_ms=6804, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 20:01:23], mode=PLATFORM_GENERATION, duration=0:00:03.355, duration_ms=3355, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 20:01:23], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=displays, configuration=Debug, clean_build=true}
+timestamp=[2021-05-29 20:01:24], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=displays_system, configuration=Debug, clean_build=true}
+timestamp=[2021-05-29 20:01:35], mode=PLATFORM_GENERATION, duration=0:00:06.807, duration_ms=6807, data={name=CustomDisplayPeriph_1}
+timestamp=[2021-05-29 20:01:37], mode=BUILD, duration=0:00:01.412, duration_ms=1412, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 20:01:37], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 21:34:46], mode=BUILD, duration=0:00:00.879, duration_ms=879, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 21:34:47], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:03:01], mode=BUILD, duration=0:00:00.357, duration_ms=357, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:03:02], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:04:06], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:04:06], mode=BUILD, duration=0:00:00.199, duration_ms=199, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:05:46], mode=BUILD, duration=0:00:00.409, duration_ms=409, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:05:46], mode=BUILD, duration=0:00:00.158, duration_ms=158, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:06:29], mode=BUILD, duration=0:00:00.361, duration_ms=361, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:06:29], mode=BUILD, duration=0:00:00.155, duration_ms=155, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:08:11], mode=BUILD, duration=0:00:00.660, duration_ms=660, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:08:11], mode=BUILD, duration=0:00:00.153, duration_ms=153, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:10:45], mode=BUILD, duration=0:00:00.601, duration_ms=601, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:10:45], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:11:12], mode=BUILD, duration=0:00:00.920, duration_ms=920, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:11:12], mode=BUILD, duration=0:00:00.150, duration_ms=150, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:11:32], mode=BUILD, duration=0:00:00.839, duration_ms=839, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:11:32], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:22:21], mode=BUILD, duration=0:00:00.794, duration_ms=794, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:22:22], mode=BUILD, duration=0:00:00.150, duration_ms=150, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:23:29], mode=BUILD, duration=0:00:00.596, duration_ms=596, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:23:30], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:23:42], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:23:42], mode=BUILD, duration=0:00:00.150, duration_ms=150, data={name=displays_system, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:25:52], mode=BUILD, duration=0:00:00.781, duration_ms=781, data={name=displays, configuration=Debug, clean_build=false}
+timestamp=[2021-05-29 22:25:53], mode=BUILD, duration=0:00:00.149, duration_ms=149, data={name=displays_system, configuration=Debug, clean_build=false}

@@ -199,7 +199,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>POLARITY</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_RST.POLARITY" spirit:choiceRef="choice_list_74b5137e">ACTIVE_LOW</spirit:value>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_RST.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
         </spirit:parameter>
       </spirit:parameters>
     </spirit:busInterface>
@@ -266,7 +266,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8da2a133</spirit:value>
+            <spirit:value>2aecd3fd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -282,7 +282,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>8da2a133</spirit:value>
+            <spirit:value>2aecd3fd</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -708,7 +708,7 @@
       <spirit:enumeration>32</spirit:enumeration>
     </spirit:choice>
     <spirit:choice>
-      <spirit:name>choice_list_74b5137e</spirit:name>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
       <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
       <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
     </spirit:choice>
@@ -722,15 +722,15 @@
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlsynthesis_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/ClkDividerN.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/DisplayController_v1_0_S00_AXI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>src/Nexys4DispDriver2.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/pulse_gen_1Hz.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -742,15 +742,15 @@
     <spirit:fileSet>
       <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>src/ClkDividerN.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/DisplayController_v1_0_S00_AXI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>src/Nexys4DispDriver2.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/pulse_gen_1Hz.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -873,8 +873,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>DisplayController_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2021-05-26T14:37:05Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>3</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2021-05-29T18:26:18Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2c5e21a8_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2ab743c8_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
@@ -924,13 +924,34 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@4df70308_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@36144a82_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@3ed4eb6d_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b510df6_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f72e937_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f8e7e1d_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fd80cc1_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31c286d5_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22243c23_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b02cffe_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12ebb24c_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@325461f_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c0e7f2f_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75b3faf8_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77415360_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58b511a8_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@438e716b_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@280209aa_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@538f2915_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@89c832b_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13d3a295_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9bbb9d6_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3688361d_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2952ab23_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7a6aebf4"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7a63f3fc"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="c7f12d16"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="69e964e6"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="2aeb8713"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="6992ea72"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="4ae6dc83"/>

@@ -8,7 +8,7 @@
 	<item key="StartApp_system-skip_rev_check" value="false"/>
 	<item key="programfpga.sdxproject" value="CustomPeriph_system"/>
 	<item key="StartApp_system-microblaze_0-initElf" value="bootloop"/>
-	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4 210274504707A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4-210274504707A-13631093-0&quot;}}]}"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4 210274504950A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4-210274504950A-13631093-0&quot;}}]}"/>
 	<item key="CustomPeriph_system-bitFile" value="${project_loc:CustomPeriph}/_ide/bitstream/mb_design_custom_periph.bit"/>
 	<item key="CustomPeriph_system-bmmFile" value="${project_loc:CustomPeriph}/_ide/bitstream/mb_design_custom_periph.mmi"/>
 	<item key="CustomPeriph_system-target" value="Local"/>

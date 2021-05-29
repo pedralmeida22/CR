@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed May 26 16:03:19 2021
-# Process ID: 23856
+# Start of session at: Sat May 29 19:30:31 2021
+# Process ID: 6528
 # Current directory: C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.runs/synth_1
 # Command line: vivado.exe -log mb_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_wrapper.tcl
 # Log file: C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.runs/synth_1/mb_design_wrapper.vds
@@ -22,9 +22,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 23232
+INFO: [Synth 8-7075] Helper process launched with PID 1400
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 999.984 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 999.613 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'mb_design_wrapper' [C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:29]
 INFO: [Synth 8-3491] module 'mb_design' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/synth/mb_design.vhd:2525' bound to instance 'mb_design_i' of component 'mb_design' [C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:45]
@@ -33,29 +33,27 @@ INFO: [Synth 8-3491] module 'mb_design_DisplayController_0_0' declared at 'c:/Us
 INFO: [Synth 8-638] synthesizing module 'mb_design_DisplayController_0_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_DisplayController_0_0/synth/mb_design_DisplayController_0_0.vhd:85]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'DisplayController_v1_0' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0.vhd:5' bound to instance 'U0' of component 'DisplayController_v1_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_DisplayController_0_0/synth/mb_design_DisplayController_0_0.vhd:154]
-INFO: [Synth 8-638] synthesizing module 'DisplayController_v1_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0.vhd:51]
+INFO: [Synth 8-3491] module 'DisplayController_v1_0' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0.vhd:5' bound to instance 'U0' of component 'DisplayController_v1_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_DisplayController_0_0/synth/mb_design_DisplayController_0_0.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'DisplayController_v1_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0.vhd:51]
 	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-3491] module 'DisplayController_v1_0_S00_AXI' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:5' bound to instance 'DisplayController_v1_0_S00_AXI_inst' of component 'DisplayController_v1_0_S00_AXI' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0.vhd:90]
-INFO: [Synth 8-638] synthesizing module 'DisplayController_v1_0_S00_AXI' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:88]
+INFO: [Synth 8-3491] module 'DisplayController_v1_0_S00_AXI' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:5' bound to instance 'DisplayController_v1_0_S00_AXI_inst' of component 'DisplayController_v1_0_S00_AXI' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'DisplayController_v1_0_S00_AXI' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:88]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
-INFO: [Synth 8-226] default block is never used [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:253]
-INFO: [Synth 8-226] default block is never used [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:383]
-	Parameter k bound to: 125000 - type: integer 
-INFO: [Synth 8-3491] module 'ClkDividerN' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/ClkDividerN.vhd:25' bound to instance 'ClkDivider' of component 'ClkDividerN' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:417]
-INFO: [Synth 8-638] synthesizing module 'ClkDividerN' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/ClkDividerN.vhd:31]
-	Parameter k bound to: 125000 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'ClkDividerN' (1#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/ClkDividerN.vhd:31]
-INFO: [Synth 8-3491] module 'Nexys4DispDriver2' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/Nexys4DispDriver2.vhd:26' bound to instance 'display' of component 'Nexys4DispDriver2' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:422]
-INFO: [Synth 8-638] synthesizing module 'Nexys4DispDriver2' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/Nexys4DispDriver2.vhd:44]
-INFO: [Synth 8-226] default block is never used [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/Nexys4DispDriver2.vhd:120]
-INFO: [Synth 8-256] done synthesizing module 'Nexys4DispDriver2' (2#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/src/Nexys4DispDriver2.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'DisplayController_v1_0_S00_AXI' (3#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0_S00_AXI.vhd:88]
-INFO: [Synth 8-256] done synthesizing module 'DisplayController_v1_0' (4#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/f64a/hdl/DisplayController_v1_0.vhd:51]
+INFO: [Synth 8-226] default block is never used [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:254]
+INFO: [Synth 8-226] default block is never used [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:384]
+INFO: [Synth 8-3491] module 'pulse_gen_1Hz' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/pulse_gen_1Hz.vhd:25' bound to instance 'pulse_gen' of component 'pulse_gen_1Hz' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:420]
+INFO: [Synth 8-638] synthesizing module 'pulse_gen_1Hz' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/pulse_gen_1Hz.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'pulse_gen_1Hz' (1#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/pulse_gen_1Hz.vhd:31]
+INFO: [Synth 8-3491] module 'Nexys4DispDriver2' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/Nexys4DispDriver2.vhd:26' bound to instance 'display' of component 'Nexys4DispDriver2' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:425]
+INFO: [Synth 8-638] synthesizing module 'Nexys4DispDriver2' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/Nexys4DispDriver2.vhd:44]
+INFO: [Synth 8-226] default block is never used [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/Nexys4DispDriver2.vhd:120]
+INFO: [Synth 8-256] done synthesizing module 'Nexys4DispDriver2' (2#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/src/Nexys4DispDriver2.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'DisplayController_v1_0_S00_AXI' (3#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd:88]
+INFO: [Synth 8-256] done synthesizing module 'DisplayController_v1_0' (4#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0.vhd:51]
 INFO: [Synth 8-256] done synthesizing module 'mb_design_DisplayController_0_0' (5#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_DisplayController_0_0/synth/mb_design_DisplayController_0_0.vhd:85]
 INFO: [Synth 8-3491] module 'mb_design_axi_gpio_2_0' declared at 'c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/synth/mb_design_axi_gpio_2_0.vhd:59' bound to instance 'axi_gpio_buttons' of component 'mb_design_axi_gpio_2_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/synth/mb_design.vhd:3092]
 INFO: [Synth 8-638] synthesizing module 'mb_design_axi_gpio_2_0' [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/synth/mb_design_axi_gpio_2_0.vhd:85]
@@ -2682,18 +2680,18 @@ INFO: [Synth 8-256] done synthesizing module 'mb_design_rst_clk_wiz_1_100M_0' (1
 INFO: [Synth 8-256] done synthesizing module 'mb_design' (159#1) [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/synth/mb_design.vhd:2544]
 INFO: [Synth 8-256] done synthesizing module 'mb_design_wrapper' (160#1) [C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/hdl/mb_design_wrapper.vhd:29]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:47 ; elapsed = 00:00:52 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished RTL Elaboration : Time (s): cpu = 00:00:59 ; elapsed = 00:01:05 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:49 ; elapsed = 00:00:54 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:02 ; elapsed = 00:01:07 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.751 . Memory (MB): peak = 1334.832 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.894 . Memory (MB): peak = 1326.094 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 949 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -2751,7 +2749,7 @@ Parsing XDC File [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/Cust
 Finished Parsing XDC File [c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_design_i/microblaze_0_axi_intc/U0'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1334.832 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1326.094 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 666 instances were transformed.
   FDC_1 => FDCE (inverted pins: C): 1 instance 
@@ -2766,16 +2764,16 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
   SRL16 => SRL16E: 1 instance 
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1334.832 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.228 . Memory (MB): peak = 1326.094 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:04 ; elapsed = 00:01:09 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Constraint Validation : Time (s): cpu = 00:01:21 ; elapsed = 00:01:27 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:04 ; elapsed = 00:01:09 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:21 ; elapsed = 00:01:27 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -2819,7 +2817,7 @@ Applied set_property KEEP = true for sys_clock. (constraint file  auto generated
 Applied set_property KEEP = true for usb_uart_rxd. (constraint file  auto generated constraint).
 Applied set_property KEEP = true for mb_design_i/axi_uartlite_0/U0/UARTLITE_CORE_I/UARTLITE_TX_I/TX. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:09 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:22 ; elapsed = 00:01:27 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized0'
@@ -2881,7 +2879,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'IRQ_LEVEL_GEN.IRQ_LEVEL_FA
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment__parameterized3'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:14 ; elapsed = 00:01:19 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:33 ; elapsed = 00:01:39 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -2889,7 +2887,7 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input   33 Bit       Adders := 1     
-	   2 Input   31 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
 	   2 Input   10 Bit       Adders := 2     
 	   2 Input    8 Bit       Adders := 1     
 	   2 Input    6 Bit       Adders := 4     
@@ -2910,8 +2908,8 @@ Detailed RTL Component Info :
 	               36 Bit    Registers := 2     
 	               33 Bit    Registers := 3     
 	               32 Bit    Registers := 46    
-	               31 Bit    Registers := 1     
 	               30 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
 	               16 Bit    Registers := 11    
 	               15 Bit    Registers := 1     
 	               14 Bit    Registers := 2     
@@ -2933,8 +2931,8 @@ Detailed RTL Component Info :
 	   2 Input   32 Bit        Muxes := 30    
 	   4 Input   32 Bit        Muxes := 9     
 	   5 Input   32 Bit        Muxes := 3     
-	   2 Input   31 Bit        Muxes := 1     
 	   2 Input   29 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
 	   2 Input   16 Bit        Muxes := 9     
 	   2 Input   15 Bit        Muxes := 10    
 	   3 Input   14 Bit        Muxes := 1     
@@ -2983,7 +2981,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:32 ; elapsed = 00:01:37 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:57 ; elapsed = 00:02:03 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -3006,13 +3004,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'mb_design_i/microblaze_0/U0/Reset' to pin 'mb_design_i/rst_clk_wiz_1_100M/U0/FDRE_inst/Q'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:39 ; elapsed = 00:01:44 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:12 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:45 ; elapsed = 00:01:51 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Timing Optimization : Time (s): cpu = 00:02:14 ; elapsed = 00:02:20 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -3032,7 +3030,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Technology Mapping : Time (s): cpu = 00:02:17 ; elapsed = 00:02:24 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -3050,37 +3048,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished IO Insertion : Time (s): cpu = 00:02:21 ; elapsed = 00:02:28 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:53 ; elapsed = 00:01:58 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:21 ; elapsed = 00:02:28 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:53 ; elapsed = 00:01:59 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:22 ; elapsed = 00:02:29 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:22 ; elapsed = 00:02:29 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:22 ; elapsed = 00:02:29 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:22 ; elapsed = 00:02:29 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -3128,13 +3126,13 @@ Report Cell Usage:
 |1     |AND2B1L    |     1|
 |2     |BSCANE2    |     1|
 |3     |BUFG       |     3|
-|4     |CARRY4     |    16|
+|4     |CARRY4     |    12|
 |5     |LUT1       |    45|
 |6     |LUT2       |   234|
 |7     |LUT3       |   471|
-|8     |LUT4       |   422|
-|9     |LUT5       |   468|
-|10    |LUT6       |   864|
+|8     |LUT4       |   418|
+|9     |LUT5       |   483|
+|10    |LUT6       |   862|
 |12    |MMCME2_ADV |     1|
 |13    |MULT_AND   |     1|
 |14    |MUXCY      |    64|
@@ -3151,25 +3149,25 @@ Report Cell Usage:
 |25    |FDC        |     1|
 |26    |FDPE       |     6|
 |27    |FDR        |   193|
-|28    |FDRE       |  2089|
+|28    |FDRE       |  2075|
 |30    |FDS        |     1|
 |31    |FDSE       |    93|
 |32    |IBUF       |    24|
 |33    |OBUF       |    33|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:54 ; elapsed = 00:01:59 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:22 ; elapsed = 00:02:29 . Memory (MB): peak = 1326.094 ; gain = 326.480
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:01:49 . Memory (MB): peak = 1334.832 ; gain = 334.848
-Synthesis Optimization Complete : Time (s): cpu = 00:01:54 ; elapsed = 00:02:00 . Memory (MB): peak = 1334.832 ; gain = 334.848
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:08 ; elapsed = 00:02:16 . Memory (MB): peak = 1326.094 ; gain = 326.480
+Synthesis Optimization Complete : Time (s): cpu = 00:02:23 ; elapsed = 00:02:29 . Memory (MB): peak = 1326.094 ; gain = 326.480
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.345 . Memory (MB): peak = 1334.832 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 767 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.344 . Memory (MB): peak = 1326.094 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 763 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1334.832 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1326.094 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 396 instances were transformed.
   (MUXCY,XORCY) => CARRY4: 70 instances
@@ -3186,7 +3184,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 592 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:04 ; elapsed = 00:02:11 . Memory (MB): peak = 1334.832 ; gain = 334.848
+synth_design: Time (s): cpu = 00:02:34 ; elapsed = 00:02:44 . Memory (MB): peak = 1326.094 ; gain = 326.480
 INFO: [Common 17-1381] The checkpoint 'C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.runs/synth_1/mb_design_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_design_wrapper_utilization_synth.rpt -pb mb_design_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed May 26 16:05:37 2021...
+INFO: [Common 17-206] Exiting Vivado at Sat May 29 19:33:24 2021...

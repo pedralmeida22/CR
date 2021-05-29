@@ -1,0 +1,1686 @@
+TRACE::2021-05-29.19:48:06::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:06::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:06::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Do not have an existing db opened. 
+TRACE::2021-05-29.19:48:09::SCWPlatform::Opened new HwDB with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2021-05-29.19:48:09::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1"
+		}]
+}
+TRACE::2021-05-29.19:48:09::SCWPlatform::Boot application domains not present, creating them
+TRACE::2021-05-29.19:48:09::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2021-05-29.19:48:09::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1"
+		}]
+}
+TRACE::2021-05-29.19:48:09::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1"
+		}]
+}
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:09::SCWDomain::checking for install qemu data   : 
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:09::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:09::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:09::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2021-05-29.19:48:09::SCWMssOS::No sw design opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:09::SCWMssOS::mss does not exists at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:09::SCWMssOS::Creating sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:10::SCWMssOS::Adding the swdes entry, created swdb C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:10::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:10::SCWMssOS::Writing mss at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:10::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.19:48:10::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2021-05-29.19:48:10::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2021-05-29.19:48:10::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.19:48:10::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Running validate of swdbs.
+KEYINFO::2021-05-29.19:48:14::SCWMssOS::Could not open the swdb for C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+KEYINFO::2021-05-29.19:48:14::SCWMssOS::Could not open the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss is not found
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Cleared the swdb table entry
+TRACE::2021-05-29.19:48:14::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2021-05-29.19:48:14::SCWMssOS::Writing the mss file completed C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-05-29.19:48:14::SCWPlatform::Started generating the artifacts platform CustomDisplayPeriph_1
+TRACE::2021-05-29.19:48:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-29.19:48:14::SCWPlatform::Started generating the artifacts for system configuration CustomDisplayPeriph_1
+LOG::2021-05-29.19:48:14::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-05-29.19:48:14::SCWSystem::Not a boot domain 
+LOG::2021-05-29.19:48:14::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.19:48:14::SCWDomain::Generating domain artifcats
+TRACE::2021-05-29.19:48:14::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-29.19:48:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.19:48:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-29.19:48:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-29.19:48:14::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2021-05-29.19:48:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-05-29.19:48:14::SCWMssOS::Copying to export directory.
+TRACE::2021-05-29.19:48:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-29.19:48:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-05-29.19:48:14::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-05-29.19:48:14::SCWSystem::Completed Processing the sysconfig CustomDisplayPeriph_1
+LOG::2021-05-29.19:48:14::SCWPlatform::Completed generating the artifacts for system configuration CustomDisplayPeriph_1
+TRACE::2021-05-29.19:48:14::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-29.19:48:14::SCWSystem::Writing the bif file for system config CustomDisplayPeriph_1
+TRACE::2021-05-29.19:48:14::SCWSystem::dir created 
+TRACE::2021-05-29.19:48:14::SCWSystem::Writing the bif 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Completed generating the platform
+TRACE::2021-05-29.19:48:14::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-29.19:48:14::SCWPlatform::updated the xpfm file.
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2021-05-29.19:48:14::SCWPlatform::Started generating the artifacts platform CustomDisplayPeriph_1
+TRACE::2021-05-29.19:48:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-29.19:48:14::SCWPlatform::Started generating the artifacts for system configuration CustomDisplayPeriph_1
+LOG::2021-05-29.19:48:14::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.19:48:14::SCWDomain::Generating domain artifcats
+TRACE::2021-05-29.19:48:14::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-29.19:48:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.19:48:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-29.19:48:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-29.19:48:14::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-05-29.19:48:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2021-05-29.19:48:14::SCWMssOS::Copying to export directory.
+TRACE::2021-05-29.19:48:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-29.19:48:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-05-29.19:48:14::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-05-29.19:48:14::SCWSystem::Completed Processing the sysconfig CustomDisplayPeriph_1
+LOG::2021-05-29.19:48:14::SCWPlatform::Completed generating the artifacts for system configuration CustomDisplayPeriph_1
+TRACE::2021-05-29.19:48:14::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-29.19:48:14::SCWSystem::Writing the bif file for system config CustomDisplayPeriph_1
+TRACE::2021-05-29.19:48:14::SCWSystem::dir created 
+TRACE::2021-05-29.19:48:14::SCWSystem::Writing the bif 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-29.19:48:14::SCWPlatform::Completed generating the platform
+TRACE::2021-05-29.19:48:14::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-29.19:48:14::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:48:14::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:48:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:48:14::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:48:14::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:48:14::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-29.19:48:14::SCWPlatform::updated the xpfm file.
+LOG::2021-05-29.19:50:56::SCWPlatform::Started generating the artifacts platform CustomDisplayPeriph_1
+TRACE::2021-05-29.19:50:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-29.19:50:56::SCWPlatform::Started generating the artifacts for system configuration CustomDisplayPeriph_1
+LOG::2021-05-29.19:50:56::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-05-29.19:50:56::SCWSystem::Not a boot domain 
+LOG::2021-05-29.19:50:56::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.19:50:56::SCWDomain::Generating domain artifcats
+TRACE::2021-05-29.19:50:56::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-29.19:50:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-29.19:50:56::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:50:56::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:50:56::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:50:56::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:50:56::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:50:56::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:50:56::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:50:56::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:50:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:50:56::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:50:56::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:50:56::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:50:56::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.19:50:56::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:50:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-29.19:50:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-29.19:50:56::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-05-29.19:50:56::SCWMssOS::doing bsp build ... 
+TRACE::2021-05-29.19:50:56::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2021-05-29.19:50:56::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-05-29.19:50:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.19:50:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.19:50:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.19:50:56::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.19:50:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.19:50:57::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2021-05-29.19:50:57::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-05-29.19:50:57::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.19:50:57::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.19:50:57::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.19:50:57::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.19:50:57::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.19:50:57::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-05-29.19:50:57::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-05-29.19:50:57::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-29.19:50:58::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-29.19:50:58::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-29.19:50:58::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-29.19:50:58::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-05-29.19:50:58::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2021-05-29.19:50:58::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2021-05-29.19:50:58::SCWMssOS::"Compiling DisplayController..."
+
+ERROR::2021-05-29.19:50:58::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2021-05-29.19:50:58::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.19:57:45::SCWMssOS::cleaning the bsp 
+TRACE::2021-05-29.19:57:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2021-05-29.19:57:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2021-05-29.19:57:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2021-05-29.19:57:45::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s clean 
+
+TRACE::2021-05-29.19:57:45::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2021-05-29.19:57:45::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2021-05-29.19:57:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2021-05-29.19:57:46::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2021-05-29.19:57:46::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2021-05-29.19:57:46::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2021-05-29.19:57:52::SCWPlatform::Started generating the artifacts platform CustomDisplayPeriph_1
+TRACE::2021-05-29.19:57:52::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-29.19:57:52::SCWPlatform::Started generating the artifacts for system configuration CustomDisplayPeriph_1
+LOG::2021-05-29.19:57:52::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-05-29.19:57:52::SCWSystem::Not a boot domain 
+LOG::2021-05-29.19:57:52::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.19:57:52::SCWDomain::Generating domain artifcats
+TRACE::2021-05-29.19:57:52::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-29.19:57:52::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-29.19:57:52::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:57:52::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:57:52::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:57:52::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.19:57:52::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.19:57:52::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.19:57:52::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.19:57:52::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.19:57:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.19:57:52::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:57:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:57:52::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.19:57:52::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.19:57:52::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-29.19:57:52::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-29.19:57:52::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-05-29.19:57:52::SCWMssOS::doing bsp build ... 
+TRACE::2021-05-29.19:57:52::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2021-05-29.19:57:52::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.19:57:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.19:57:52::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.19:57:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.19:57:52::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2021-05-29.19:57:52::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-05-29.19:57:52::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.19:57:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.19:57:52::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.19:57:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.19:57:53::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.19:57:53::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-05-29.19:57:53::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-05-29.19:57:53::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-29.19:57:53::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-29.19:57:53::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-29.19:57:53::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-29.19:57:53::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::"Running Make libs in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-05-29.19:57:53::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2021-05-29.19:57:53::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2021-05-29.19:57:53::SCWMssOS::"Compiling DisplayController..."
+
+ERROR::2021-05-29.19:57:53::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2021-05-29.19:57:53::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.20:00:24::SCWMssOS::cleaning the bsp 
+TRACE::2021-05-29.20:00:24::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2021-05-29.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2021-05-29.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2021-05-29.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s clean 
+
+TRACE::2021-05-29.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2021-05-29.20:00:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2021-05-29.20:00:25::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2021-05-29.20:00:25::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2021-05-29.20:00:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2021-05-29.20:00:25::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2021-05-29.20:00:31::SCWPlatform::Started generating the artifacts platform CustomDisplayPeriph_1
+TRACE::2021-05-29.20:00:31::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-29.20:00:31::SCWPlatform::Started generating the artifacts for system configuration CustomDisplayPeriph_1
+LOG::2021-05-29.20:00:31::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-05-29.20:00:31::SCWSystem::Not a boot domain 
+LOG::2021-05-29.20:00:31::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.20:00:31::SCWDomain::Generating domain artifcats
+TRACE::2021-05-29.20:00:31::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-29.20:00:31::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-29.20:00:31::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:31::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:31::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:31::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:00:31::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:31::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:00:31::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:00:31::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:00:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:00:31::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:31::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.20:00:31::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:31::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-29.20:00:31::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-29.20:00:31::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-05-29.20:00:31::SCWMssOS::doing bsp build ... 
+TRACE::2021-05-29.20:00:31::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2021-05-29.20:00:31::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:00:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:00:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:00:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:00:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2021-05-29.20:00:31::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-05-29.20:00:31::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:00:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:00:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.20:00:31::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.20:00:31::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-05-29.20:00:31::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-05-29.20:00:31::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-29.20:00:31::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-29.20:00:31::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-29.20:00:31::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-29.20:00:31::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::"Running Make libs in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.20:00:31::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-05-29.20:00:31::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2021-05-29.20:00:31::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Compiling DisplayController..."
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:00:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:00:32::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:00:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:00:32::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2021-05-29.20:00:32::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-05-29.20:00:32::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:00:32::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:00:32::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.20:00:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.20:00:32::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-05-29.20:00:32::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-05-29.20:00:32::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-29.20:00:32::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-29.20:00:32::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-29.20:00:32::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-29.20:00:32::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-05-29.20:00:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-05-29.20:00:32::SCWMssOS::xtra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-05-29.20:00:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-05-29.20:00:32::SCWMssOS::xtra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-05-29.20:00:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-05-29.20:00:32::SCWMssOS::xtra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2021-05-29.20:00:32::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2021-05-29.20:00:32::SCWMssOS::extra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-05-29.20:00:32::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-05-29.20:00:32::SCWMssOS::ll -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.20:00:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.20:00:32::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.20:00:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2021-05-29.20:00:32::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2021-05-29.20:00:32::SCWMssOS::Wextra"
+
+TRACE::2021-05-29.20:00:34::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::make --no-print-directory archive
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2021-05-29.20:00:35::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_
+TRACE::2021-05-29.20:00:35::SCWMssOS::testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/xuartli
+TRACE::2021-05-29.20:00:35::SCWMssOS::te_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o
+TRACE::2021-05-29.20:00:35::SCWMssOS:: microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xintc_intr.o microblaze_0/
+TRACE::2021-05-29.20:00:35::SCWMssOS::lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_sc
+TRACE::2021-05-29.20:00:35::SCWMssOS::rub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_s
+TRACE::2021-05-29.20:00:35::SCWMssOS::elftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g
+TRACE::2021-05-29.20:00:35::SCWMssOS::.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/
+TRACE::2021-05-29.20:00:35::SCWMssOS::lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib/x
+TRACE::2021-05-29.20:00:35::SCWMssOS::uartlite_g.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte
+TRACE::2021-05-29.20:00:35::SCWMssOS::.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_dcache_
+TRACE::2021-05-29.20:00:35::SCWMssOS::range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_ha
+TRACE::2021-05-29.20:00:35::SCWMssOS::ndler.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microb
+TRACE::2021-05-29.20:00:35::SCWMssOS::laze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interr
+TRACE::2021-05-29.20:00:35::SCWMssOS::upts_g.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram
+TRACE::2021-05-29.20:00:35::SCWMssOS::.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_init_d
+TRACE::2021-05-29.20:00:35::SCWMssOS::cache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaz
+TRACE::2021-05-29.20:00:35::SCWMssOS::e_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/
+TRACE::2021-05-29.20:00:35::SCWMssOS::lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/
+TRACE::2021-05-29.20:00:35::SCWMssOS::xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o micro
+TRACE::2021-05-29.20:00:35::SCWMssOS::blaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_enable_icache.o microblaz
+TRACE::2021-05-29.20:00:35::SCWMssOS::e_0/lib/xintc.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/xtmrctr_sinit
+TRACE::2021-05-29.20:00:35::SCWMssOS::.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::Copying to export directory.
+TRACE::2021-05-29.20:00:35::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-29.20:00:35::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-05-29.20:00:35::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-05-29.20:00:35::SCWSystem::Completed Processing the sysconfig CustomDisplayPeriph_1
+LOG::2021-05-29.20:00:35::SCWPlatform::Completed generating the artifacts for system configuration CustomDisplayPeriph_1
+TRACE::2021-05-29.20:00:35::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-29.20:00:35::SCWSystem::Writing the bif file for system config CustomDisplayPeriph_1
+TRACE::2021-05-29.20:00:35::SCWSystem::dir created 
+TRACE::2021-05-29.20:00:35::SCWSystem::Writing the bif 
+TRACE::2021-05-29.20:00:35::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-29.20:00:35::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-29.20:00:35::SCWPlatform::Completed generating the platform
+TRACE::2021-05-29.20:00:35::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.20:00:35::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-29.20:00:35::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:00:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:00:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:00:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-29.20:00:35::SCWPlatform::updated the xpfm file.
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:00:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:00:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:00:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:00:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:00:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:22::SCWMssOS::cleaning the bsp 
+TRACE::2021-05-29.20:01:22::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2021-05-29.20:01:22::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+TRACE::2021-05-29.20:01:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+TRACE::2021-05-29.20:01:22::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s clean 
+
+TRACE::2021-05-29.20:01:22::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+TRACE::2021-05-29.20:01:22::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+TRACE::2021-05-29.20:01:22::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+TRACE::2021-05-29.20:01:23::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+TRACE::2021-05-29.20:01:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+TRACE::2021-05-29.20:01:23::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2021-05-29.20:01:30::SCWPlatform::Started generating the artifacts platform CustomDisplayPeriph_1
+TRACE::2021-05-29.20:01:30::SCWPlatform::Sanity checking of platform is completed
+LOG::2021-05-29.20:01:30::SCWPlatform::Started generating the artifacts for system configuration CustomDisplayPeriph_1
+LOG::2021-05-29.20:01:30::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2021-05-29.20:01:30::SCWSystem::Not a boot domain 
+LOG::2021-05-29.20:01:30::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2021-05-29.20:01:30::SCWDomain::Generating domain artifcats
+TRACE::2021-05-29.20:01:30::SCWMssOS::Generating standalone artifcats
+TRACE::2021-05-29.20:01:30::SCWMssOS:: Copying the user libraries. 
+TRACE::2021-05-29.20:01:30::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:30::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:30::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:30::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:01:30::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:30::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:01:30::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:01:30::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:01:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:01:30::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:01:30::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:30::SCWMssOS::Completed writing the mss file at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2021-05-29.20:01:30::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:30::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2021-05-29.20:01:30::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2021-05-29.20:01:30::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2021-05-29.20:01:30::SCWMssOS::doing bsp build ... 
+TRACE::2021-05-29.20:01:30::SCWMssOS::System Command Ran  C: & cd  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2021-05-29.20:01:30::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:01:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:01:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2021-05-29.20:01:31::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-05-29.20:01:31::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:01:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.20:01:31::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.20:01:31::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-05-29.20:01:31::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-29.20:01:31::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-29.20:01:31::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-29.20:01:31::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-29.20:01:31::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make libs in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+TRACE::2021-05-29.20:01:31::SCWMssOS::" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+TRACE::2021-05-29.20:01:31::SCWMssOS::ons -Wall -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Compiling DisplayController..."
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -j --no-print-directory par_libs
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:01:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:01:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/DisplayController_v1_0/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/DisplayController_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2021-05-29.20:01:31::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2021-05-29.20:01:31::SCWMssOS::ctions -Wall -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2021-05-29.20:01:31::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.20:01:31::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.20:01:31::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2021-05-29.20:01:31::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2021-05-29.20:01:31::SCWMssOS::-Wall -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2021-05-29.20:01:31::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2021-05-29.20:01:31::SCWMssOS::l -Wextra"
+
+TRACE::2021-05-29.20:01:31::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2021-05-29.20:01:32::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2021-05-29.20:01:32::SCWMssOS::all -Wextra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_5/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_12/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-05-29.20:01:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-05-29.20:01:32::SCWMssOS::xtra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-05-29.20:01:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-05-29.20:01:32::SCWMssOS::xtra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_7/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2021-05-29.20:01:32::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2021-05-29.20:01:32::SCWMssOS::xtra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_12/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2021-05-29.20:01:32::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2021-05-29.20:01:32::SCWMssOS::extra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_3/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2021-05-29.20:01:32::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2021-05-29.20:01:32::SCWMssOS::ll -Wextra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_7/src"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2021-05-29.20:01:32::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2021-05-29.20:01:32::SCWMssOS:: -Wextra"
+
+TRACE::2021-05-29.20:01:32::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2021-05-29.20:01:32::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2021-05-29.20:01:32::SCWMssOS::Wextra"
+
+TRACE::2021-05-29.20:01:34::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2021-05-29.20:01:34::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2021-05-29.20:01:34::SCWMssOS::make --no-print-directory archive
+
+TRACE::2021-05-29.20:01:34::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2021-05-29.20:01:34::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xtmrctr_options.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_
+TRACE::2021-05-29.20:01:34::SCWMssOS::testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/xuartli
+TRACE::2021-05-29.20:01:34::SCWMssOS::te_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o
+TRACE::2021-05-29.20:01:34::SCWMssOS:: microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0/lib/inbyte.o microblaze_0/lib/xintc_intr.o microblaze_0/
+TRACE::2021-05-29.20:01:34::SCWMssOS::lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_sc
+TRACE::2021-05-29.20:01:34::SCWMssOS::rub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbram_s
+TRACE::2021-05-29.20:01:34::SCWMssOS::elftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_g
+TRACE::2021-05-29.20:01:34::SCWMssOS::.o microblaze_0/lib/xil_mem.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/xtmrctr_intr.o microblaze_0/
+TRACE::2021-05-29.20:01:34::SCWMssOS::lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib/x
+TRACE::2021-05-29.20:01:34::SCWMssOS::uartlite_g.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte
+TRACE::2021-05-29.20:01:34::SCWMssOS::.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_dcache_
+TRACE::2021-05-29.20:01:34::SCWMssOS::range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_ha
+TRACE::2021-05-29.20:01:34::SCWMssOS::ndler.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/microb
+TRACE::2021-05-29.20:01:34::SCWMssOS::laze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interr
+TRACE::2021-05-29.20:01:34::SCWMssOS::upts_g.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram
+TRACE::2021-05-29.20:01:34::SCWMssOS::.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_init_d
+TRACE::2021-05-29.20:01:34::SCWMssOS::cache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaz
+TRACE::2021-05-29.20:01:34::SCWMssOS::e_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/
+TRACE::2021-05-29.20:01:34::SCWMssOS::lib/pvr.o microblaze_0/lib/xgpio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/
+TRACE::2021-05-29.20:01:34::SCWMssOS::xuartlite_intr.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o micro
+TRACE::2021-05-29.20:01:34::SCWMssOS::blaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xgpio_extra.o microblaze_0/lib/microblaze_enable_icache.o microblaz
+TRACE::2021-05-29.20:01:34::SCWMssOS::e_0/lib/xintc.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/xtmrctr_sinit
+TRACE::2021-05-29.20:01:34::SCWMssOS::.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_selftest.o
+
+TRACE::2021-05-29.20:01:34::SCWMssOS::'Finished building libraries'
+
+TRACE::2021-05-29.20:01:35::SCWMssOS::Copying to export directory.
+TRACE::2021-05-29.20:01:35::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2021-05-29.20:01:35::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2021-05-29.20:01:35::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2021-05-29.20:01:35::SCWSystem::Completed Processing the sysconfig CustomDisplayPeriph_1
+LOG::2021-05-29.20:01:35::SCWPlatform::Completed generating the artifacts for system configuration CustomDisplayPeriph_1
+TRACE::2021-05-29.20:01:35::SCWPlatform::Started preparing the platform 
+TRACE::2021-05-29.20:01:35::SCWSystem::Writing the bif file for system config CustomDisplayPeriph_1
+TRACE::2021-05-29.20:01:35::SCWSystem::dir created 
+TRACE::2021-05-29.20:01:35::SCWSystem::Writing the bif 
+TRACE::2021-05-29.20:01:35::SCWPlatform::Started writing the spfm file 
+TRACE::2021-05-29.20:01:35::SCWPlatform::Started writing the xpfm file 
+TRACE::2021-05-29.20:01:35::SCWPlatform::Completed generating the platform
+TRACE::2021-05-29.20:01:35::SCWMssOS::Saving the mss changes C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2021-05-29.20:01:35::SCWMssOS::Completed writemss as part of save.
+TRACE::2021-05-29.20:01:35::SCWMssOS::Commit changes completed.
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:01:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:01:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:01:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:01:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:01:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:01:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWWriter::formatted JSON is {
+	"platformName":	"CustomDisplayPeriph_1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"CustomDisplayPeriph_1",
+	"platHandOff":	"C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa",
+	"platIntHandOff":	"<platformDir>/hw/CustomDisplayPeriph.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"CustomDisplayPeriph_1",
+	"systems":	[{
+			"systemName":	"CustomDisplayPeriph_1",
+			"systemDesc":	"CustomDisplayPeriph_1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"CustomDisplayPeriph_1",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"1f0dbd13a8faa85f00e5df917cd1379d",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2021-05-29.20:01:35::SCWPlatform::updated the xpfm file.
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to open the hw design at C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA given C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA absoulate path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform::DSA directory C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Platform Path C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/hw/CustomDisplayPeriph.xsa
+TRACE::2021-05-29.20:01:35::SCWPlatform:: Unique name xilinx:nexys4::0.0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Trying to set the existing hwdb with name mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Opened existing hwdb mb_design_wrapper_0
+TRACE::2021-05-29.20:01:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2021-05-29.20:01:35::SCWMssOS::Checking the sw design at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2021-05-29.20:01:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2021-05-29.20:01:35::SCWMssOS::Sw design exists and opened at  C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/microblaze_0/standalone_microblaze_0/bsp/system.mss
