@@ -1,0 +1,16 @@
+20:18:06 **** Incremental Build of configuration Debug for project rev_end ****
+make all 
+'Building target: rev_end.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/sw/ReverseEndianness/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "rev_end.elf"  ./src/helloworld.o ./src/platform.o ./src/reverse_endianness.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rev_end.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size rev_end.elf  |tee "rev_end.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14888	   1392	  34912	  51192	   c7f8	rev_end.elf
+'Finished building: rev_end.elf.size'
+' '
+
+20:18:08 Build Finished (took 1s.334ms)
+

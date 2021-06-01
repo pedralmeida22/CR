@@ -910,3 +910,210 @@ con
 
 22:26:04 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
 22:26:38 INFO  : Disconnected from the channel tcfchan#13.
+18:48:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\pedra\Documents\CR\labs\vitis_workspace\temp_xsdb_launch_script.tcl
+18:48:49 INFO  : XSCT server has started successfully.
+18:48:49 INFO  : plnx-install-location is set to ''
+18:48:49 INFO  : Successfully done setting XSCT server connection channel  
+18:48:49 INFO  : Successfully done setting workspace for the tool. 
+18:48:58 INFO  : Platform repository initialization has completed.
+18:48:58 INFO  : Registering command handlers for Vitis TCF services
+18:49:04 INFO  : Successfully done query RDI_DATADIR 
+18:51:57 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+18:51:57 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+18:51:58 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:51:58 INFO  : Platform 'ReverseEndianness' is added to custom repositories.
+18:51:59 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885)
+	... 20 more
+18:51:59 WARN  : Failed to update project references for project CustomDisplayPeriph
+18:51:59 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+18:52:00 WARN  : Failed to update project references for project custom_display_periph
+18:52:00 WARN  : Failed to update project references for project custom_display_periph_system
+18:54:44 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+18:54:44 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+18:54:45 INFO  : Platform 'ReverseEndianness' is added to custom repositories.
+18:54:45 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885)
+	... 20 more
+18:54:45 WARN  : Failed to update project references for project CustomDisplayPeriph
+18:54:45 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+18:54:45 ERROR : An unexpected exception occurred in the module 'reading platform'
+18:54:45 WARN  : Failed to update project references for project CustomDisplayPeriph
+18:54:45 ERROR : Unexpected exception occurred while writing platform project 'ReverseEndianness' log.
+18:54:46 WARN  : Failed to update project references for project custom_display_periph
+18:54:46 WARN  : Failed to update project references for project custom_display_periph
+18:54:46 WARN  : Failed to update project references for project custom_display_periph_system
+18:54:46 WARN  : Failed to update project references for project custom_display_periph_system
+19:47:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\pedra\Documents\CR\labs\vitis_workspace\temp_xsdb_launch_script.tcl
+19:47:53 INFO  : XSCT server has started successfully.
+19:47:53 INFO  : plnx-install-location is set to ''
+19:47:53 INFO  : Successfully done setting XSCT server connection channel  
+19:47:53 INFO  : Successfully done setting workspace for the tool. 
+19:48:09 INFO  : Platform repository initialization has completed.
+19:48:09 INFO  : Registering command handlers for Vitis TCF services
+19:48:10 INFO  : Successfully done query RDI_DATADIR 
+19:51:29 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+19:51:29 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+19:51:29 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:51:29 INFO  : Platform 'ReverseEndianness' is added to custom repositories.
+19:51:33 INFO  : Platform 'ReverseEndianness' is added to custom repositories.
+20:09:51 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+20:09:51 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+20:09:52 INFO  : Checking for BSP changes to sync application flags for project 'rev_end'...
+20:10:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:10:23 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+20:10:23 INFO  : 'jtag frequency' command is executed.
+20:10:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+20:10:26 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/_ide/bitstream/ReverseEndianness.bit"
+20:10:26 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/hw/ReverseEndianness.xsa'.
+20:10:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:10:26 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:26 INFO  : System reset is completed.
+20:10:29 INFO  : 'after 3000' command is executed.
+20:10:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:30 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/Debug/rev_end.elf' is downloaded to processor 'microblaze_0'.
+20:10:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/_ide/bitstream/ReverseEndianness.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/hw/ReverseEndianness.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/Debug/rev_end.elf
+----------------End of Script----------------
+
+20:10:30 INFO  : Context for processor 'microblaze_0' is selected.
+20:10:31 INFO  : 'con' command is executed.
+20:10:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:10:31 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\rev_end_system\_ide\scripts\systemdebugger_rev_end_system_standalone.tcl'
+20:18:06 INFO  : Checking for BSP changes to sync application flags for project 'rev_end'...
+20:18:25 INFO  : Disconnected from the channel tcfchan#2.
+20:18:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:18:26 INFO  : Jtag cable 'Digilent Nexys4 210274504950A' is selected.
+20:18:26 INFO  : 'jtag frequency' command is executed.
+20:18:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}' command is executed.
+20:18:29 INFO  : Device configured successfully with "C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/_ide/bitstream/ReverseEndianness.bit"
+20:18:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:29 INFO  : Hardware design and registers information is loaded from 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/hw/ReverseEndianness.xsa'.
+20:18:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:18:29 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:29 INFO  : System reset is completed.
+20:18:32 INFO  : 'after 3000' command is executed.
+20:18:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:32 INFO  : The application 'C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/Debug/rev_end.elf' is downloaded to processor 'microblaze_0'.
+20:18:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504950A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504950A-13631093-0"}
+fpga -file C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/_ide/bitstream/ReverseEndianness.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/hw/ReverseEndianness.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/pedra/Documents/CR/labs/vitis_workspace/rev_end/Debug/rev_end.elf
+----------------End of Script----------------
+
+20:18:33 INFO  : Context for processor 'microblaze_0' is selected.
+20:18:34 INFO  : 'con' command is executed.
+20:18:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:18:34 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\rev_end_system\_ide\scripts\systemdebugger_rev_end_system_standalone.tcl'
+20:22:34 INFO  : Disconnected from the channel tcfchan#3.
