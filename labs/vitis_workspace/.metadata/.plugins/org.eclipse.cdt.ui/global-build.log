@@ -1,18 +1,28 @@
-Nothing to build in platform 'ReverseEndianness'
+Nothing to build in platform 'CustomDisplayPeriph_1'
 
-20:18:06 **** Incremental Build of configuration Debug for project rev_end ****
+16:38:06 **** Incremental Build of configuration Debug for project displays ****
 make all 
-'Building target: rev_end.elf'
+'Building file: ../src/polling.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/polling.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/sw/CustomDisplayPeriph_1/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/polling.d" -MT"src/polling.o" -o "src/polling.o" "../src/polling.c"
+../src/polling.c: In function 'SetCountDownTimer':
+../src/polling.c:276:2: warning: enumeration value 'Stopped' not handled in switch [-Wswitch]
+  276 |  switch(fsmState)
+      |  ^~~~~~
+../src/polling.c:276:2: warning: enumeration value 'Started' not handled in switch [-Wswitch]
+'Finished building: ../src/polling.c'
+' '
+'Building target: displays.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/sw/ReverseEndianness/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "rev_end.elf"  ./src/helloworld.o ./src/platform.o ./src/reverse_endianness.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: rev_end.elf'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/sw/CustomDisplayPeriph_1/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "displays.elf"  ./src/helloworld.o ./src/platform.o ./src/polling.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: displays.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
-mb-size rev_end.elf  |tee "rev_end.elf.size"
+mb-size displays.elf  |tee "displays.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  14888	   1392	  34912	  51192	   c7f8	rev_end.elf
-'Finished building: rev_end.elf.size'
+  10964	    352	   3108	  14424	   3858	displays.elf
+'Finished building: displays.elf.size'
 ' '
-20:18:10 **** Incremental Build of configuration Debug for project rev_end_system ****
+16:38:07 **** Incremental Build of configuration Debug for project displays_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

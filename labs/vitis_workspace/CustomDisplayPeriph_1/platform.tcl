@@ -22,3 +22,13 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform generate
+platform active {CustomDisplayPeriph_1}
+platform config -updatehw {C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa}
+platform generate -domains 
+platform active {CustomDisplayPeriph_1}
+platform config -updatehw {C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa}
+platform generate -domains 
+platform active {CustomDisplayPeriph_1}
+platform config -updatehw {C:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.xsa}
+platform generate -domains 

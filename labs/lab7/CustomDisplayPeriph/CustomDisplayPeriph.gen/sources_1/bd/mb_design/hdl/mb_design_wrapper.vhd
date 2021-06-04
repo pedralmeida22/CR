@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
---Date        : Sat May 29 19:27:28 2021
+--Date        : Fri Jun  4 16:15:24 2021
 --Host        : DESKTOP-V8LEL7J running 64-bit major release  (build 9200)
 --Command     : generate_target mb_design_wrapper.bd
 --Design      : mb_design_wrapper
@@ -34,10 +34,10 @@ architecture STRUCTURE of mb_design_wrapper is
     dp : out STD_LOGIC;
     seg : out STD_LOGIC_VECTOR ( 6 downto 0 );
     an : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    dip_switches_16bits_tri_i : in STD_LOGIC_VECTOR ( 15 downto 0 );
     push_buttons_5bits_tri_i : in STD_LOGIC_VECTOR ( 4 downto 0 );
     usb_uart_rxd : in STD_LOGIC;
     usb_uart_txd : out STD_LOGIC;
-    dip_switches_16bits_tri_i : in STD_LOGIC_VECTOR ( 15 downto 0 );
     led_16bits_tri_o : out STD_LOGIC_VECTOR ( 15 downto 0 )
   );
   end component mb_design;

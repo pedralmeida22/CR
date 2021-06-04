@@ -25,7 +25,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Nexys4DispDriver2 is
     Port ( clk : in STD_LOGIC;
-           clk_en : in std_logic;
+           reset : in std_logic;
            digit_en : in STD_LOGIC_VECTOR (7 downto 0);
            point_en : in STD_LOGIC_VECTOR (7 downto 0);
            digit0 : in STD_LOGIC_VECTOR (3 downto 0);
@@ -36,6 +36,8 @@ entity Nexys4DispDriver2 is
            digit5 : in STD_LOGIC_VECTOR (3 downto 0);
            digit6 : in STD_LOGIC_VECTOR (3 downto 0);
            digit7 : in STD_LOGIC_VECTOR (3 downto 0);
+           refrRate : in std_logic_vector(2 downto 0);
+           brCtrl : in std_logic_vector(2 downto 0);
            an : out STD_LOGIC_VECTOR (7 downto 0);
            seg : out STD_LOGIC_VECTOR (6 downto 0);
            dp : out STD_LOGIC);           
@@ -46,13 +48,58 @@ architecture Behavioral of Nexys4DispDriver2 is
     signal s_value : std_logic_vector(3 downto 0);
     signal s_digit_en : std_logic;
     signal s_seg : std_logic_vector(6 downto 0);
+    signal s_an, s_brLimit : std_logic_vector(7 downto 0);
+    signal s_clk_en : std_logic;
+    signal s_clkCount : integer;
+    
+    type LUTable is array (0 to 7, 0 to 7) of integer range 0 to 2_000_000;
+    constant BRIGHTNESS_LUT : LUTable :=                                                -- % brightness
+        (   (0, 0, 0, 0, 0, 0, 0, 0),                                                   -- 0
+            (280_000, 140_000, 70_000, 35_000, 17_500, 8750, 4375, 2188),               -- 14
+            (580_000, 290_000, 145_000, 72_500, 36_250, 18_125, 9_063, 4_531),          -- 29
+            (860000, 430000, 215000, 107500, 53750, 26875, 13438, 6719),                -- 43
+            (1140000, 570000, 285000, 142500, 71250, 35625, 17813, 8906),               -- 57
+            (1420000, 710000, 355000, 177500, 88750, 44375, 22188, 11094),              -- 71
+            (1720000, 860000, 430000, 215000, 107500, 53750, 26875, 13438),             -- 86
+            (2_000_000, 1_000_000, 500_000, 250_000, 125_000, 62_500, 31_250, 15_625)   -- 100
+        );
     
 begin
 
-    counter: process(clk)
+    --s_brLimit <= BRIGHTNESS_LUT(TO_INTEGER(unsigned(brCtrl)), TO_INTEGER(unsigned (refrRate))); -- duty cycle
+    --BRIGHTNESS_LUT(7, TO_INTEGER(unsigned (refrRate)) - 1) -- for generating enable
+    
+    clock_enable: process(clk)
+                begin
+                    if rising_edge(clk) then
+                        s_clk_en <= '0';
+
+                        if(reset = '0') then
+                            s_clkCount <= 0;
+                            s_clk_en <= '0';
+                            s_brLimit <= (others => '0');
+                            
+                        else
+                            s_clkCount <= s_clkCount + 1;
+                            
+                            if(s_clkCount >= BRIGHTNESS_LUT(7, TO_INTEGER(unsigned (refrRate)) - 1)) then
+                                s_clkCount <= 0;
+                                s_clk_en <= '1';
+                                s_brLimit <= (others => '0');
+                        
+                            else
+                                if(s_clkCount >= BRIGHTNESS_LUT(TO_INTEGER(unsigned(brCtrl)), TO_INTEGER(unsigned (refrRate)))) then
+                                    s_brLimit <= (others => '1');
+                                end if;
+                            end if;   
+                        end if;
+                    end if;
+                end process;
+
+    counter: process(clk, s_clk_en)
             begin
                 if (rising_edge(clk)) then
-                    if (clk_en = '1') then
+                    if (s_clk_en = '1') then
                         s_counter <= s_counter + 1;
                     end if;
                 end if;
@@ -62,14 +109,14 @@ begin
     dec3t8:  process(s_counter)
             begin
                 case s_counter is
-                    when "000" => an <= "11111110";
-                    when "001" => an <= "11111101";
-                    when "010" => an <= "11111011";
-                    when "011" => an <= "11110111";
-                    when "100" => an <= "11101111";
-                    when "101" => an <= "11011111";
-                    when "110" => an <= "10111111";
-                    when "111" => an <= "01111111";
+                    when "000" => s_an <= "11111110";
+                    when "001" => s_an <= "11111101";
+                    when "010" => s_an <= "11111011";
+                    when "011" => s_an <= "11110111";
+                    when "100" => s_an <= "11101111";
+                    when "101" => s_an <= "11011111";
+                    when "110" => s_an <= "10111111";
+                    when "111" => s_an <= "01111111";
                 end case;
             end process;     
         
@@ -146,5 +193,7 @@ begin
                 seg <= "1111111";
               end if;
            end process;
+           
+    an <= s_an or s_brLimit;
 
 end Behavioral;

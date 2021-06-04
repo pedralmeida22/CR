@@ -3,7 +3,7 @@
 // SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 // Vivado v2020.2 (64-bit)
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-// Created on Saturday May 29, 2021 - 07:27:40 pm, from:
+// Created on Friday June 04, 2021 - 04:15:43 pm, from:
 //
 //     Map file     - c:\Users\pedra\Documents\CR\labs\lab7\CustomDisplayPeriph\CustomDisplayPeriph.gen\sources_1\bd\mb_design\mb_design.bmm
 //     Data file(s) - c:/Users/pedra/Documents/CR/labs/lab7/CustomDisplayPeriph/CustomDisplayPeriph.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/data/mb_bootloop_le.elf

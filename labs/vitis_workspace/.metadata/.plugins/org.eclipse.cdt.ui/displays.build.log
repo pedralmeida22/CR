@@ -1,13 +1,13 @@
-22:25:52 **** Incremental Build of configuration Debug for project displays ****
+16:38:06 **** Incremental Build of configuration Debug for project displays ****
 make all 
 'Building file: ../src/polling.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/polling.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/sw/CustomDisplayPeriph_1/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/polling.d" -MT"src/polling.o" -o "src/polling.o" "../src/polling.c"
 ../src/polling.c: In function 'SetCountDownTimer':
-../src/polling.c:263:2: warning: enumeration value 'Stopped' not handled in switch [-Wswitch]
-  263 |  switch(fsmState)
+../src/polling.c:276:2: warning: enumeration value 'Stopped' not handled in switch [-Wswitch]
+  276 |  switch(fsmState)
       |  ^~~~~~
-../src/polling.c:263:2: warning: enumeration value 'Started' not handled in switch [-Wswitch]
+../src/polling.c:276:2: warning: enumeration value 'Started' not handled in switch [-Wswitch]
 'Finished building: ../src/polling.c'
 ' '
 'Building target: displays.elf'
@@ -18,9 +18,9 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_wor
 'Invoking: MicroBlaze Print Size'
 mb-size displays.elf  |tee "displays.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  10712	    352	   3104	  14168	   3758	displays.elf
+  10964	    352	   3108	  14424	   3858	displays.elf
 'Finished building: displays.elf.size'
 ' '
 
-22:25:52 Build Finished (took 771ms)
+16:38:06 Build Finished (took 846ms)
 

@@ -266,7 +266,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2aecd3fd</spirit:value>
+            <spirit:value>8b9c13ec</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -282,7 +282,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2aecd3fd</spirit:value>
+            <spirit:value>8b9c13ec</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -730,10 +730,6 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>src/pulse_gen_1Hz.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/DisplayController_v1_0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>CHECKSUM_6929d9bb</spirit:userFileType>
@@ -747,10 +743,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>src/Nexys4DispDriver2.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>src/pulse_gen_1Hz.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -873,8 +865,8 @@
         <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>DisplayController_v1.0</xilinx:displayName>
-      <xilinx:coreRevision>3</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2021-05-29T18:26:18Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>5</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2021-06-03T22:01:21Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2c5e21a8_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2ab743c8_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
@@ -945,13 +937,67 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@9bbb9d6_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@3688361d_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@2952ab23_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45abc730_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d271666_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6782d0aa_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7891e8a2_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ff480a5_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@cae44e7_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5fabdc9_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c3d74e3_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c9403f3_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a5d1d67_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@470f0670_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b01c7be_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4eaa8739_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d9f3c87_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1482fd8a_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77c37993_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36df7d00_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e5dc639_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c452701_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47391824_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b72f23c_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c91674c_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@772c674_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e7e286e_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41dc7f7d_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ecbfbb2_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4eb21673_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c31f217_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74bd08c2_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3705b7b4_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6cb59d5c_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d5b35de_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45968ea1_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61e03e7e_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d959c86_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4933241_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bccbd8b_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a848432_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a9b150a_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d994747_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46e3d570_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@70a31c2f_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19e42433_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b66e81b_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@504423ca_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3219530f_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3776df2_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4bf42880_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4627c179_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61514ab6_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@321aea82_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73eabaef_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54f787e7_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7621ac0c_ARCHIVE_LOCATION">c:/Users/pedra/Documents/CR/labs/lab7/ip_repo/DisplayController_1.0</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7a63f3fc"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="69e964e6"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="4090d534"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="2aeb8713"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="6992ea72"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="4ae6dc83"/>

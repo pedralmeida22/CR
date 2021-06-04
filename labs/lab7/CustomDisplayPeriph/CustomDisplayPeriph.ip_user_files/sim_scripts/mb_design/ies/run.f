@@ -126,10 +126,9 @@
 -endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/mb_design/ip/mb_design_fit_timer_0_0/sim/mb_design_fit_timer_0_0.vhd" \
-  "../../../bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0_S00_AXI.vhd" \
-  "../../../bd/mb_design/ipshared/e3ef/src/Nexys4DispDriver2.vhd" \
-  "../../../bd/mb_design/ipshared/e3ef/src/pulse_gen_1Hz.vhd" \
-  "../../../bd/mb_design/ipshared/e3ef/hdl/DisplayController_v1_0.vhd" \
+  "../../../bd/mb_design/ipshared/a138/hdl/DisplayController_v1_0_S00_AXI.vhd" \
+  "../../../bd/mb_design/ipshared/a138/src/Nexys4DispDriver2.vhd" \
+  "../../../bd/mb_design/ipshared/a138/hdl/DisplayController_v1_0.vhd" \
   "../../../bd/mb_design/ip/mb_design_DisplayController_0_0/sim/mb_design_DisplayController_0_0.vhd" \
   "../../../bd/mb_design/sim/mb_design.vhd" \
 -endlib
