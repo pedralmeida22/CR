@@ -1,0 +1,26 @@
+21:42:26 **** Build of configuration Debug for project dma_app ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/sw/DMA_2/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/sw/DMA_2/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: dma_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/sw/DMA_2/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "dma_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size dma_app.elf  |tee "dma_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2820	    364	   3112	   6296	   1898	dma_app.elf
+'Finished building: dma_app.elf.size'
+' '
+
+21:42:28 Build Finished (took 1s.525ms)
+

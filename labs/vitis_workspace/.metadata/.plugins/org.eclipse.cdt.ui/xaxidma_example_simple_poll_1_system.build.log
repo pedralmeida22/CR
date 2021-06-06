@@ -1,0 +1,6 @@
+21:53:20 **** Build of configuration Debug for project xaxidma_example_simple_poll_1_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+21:53:20 Build Finished (took 211ms)
+

@@ -1590,3 +1590,165 @@ con
 
 16:38:17 INFO  : Launch script is exported to file 'C:\Users\pedra\Documents\CR\labs\vitis_workspace\displays_system\_ide\scripts\systemdebugger_displays_system_standalone.tcl'
 16:40:04 INFO  : Disconnected from the channel tcfchan#5.
+21:31:45 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\pedra\Documents\CR\labs\vitis_workspace\temp_xsdb_launch_script.tcl
+21:31:49 INFO  : XSCT server has started successfully.
+21:31:49 INFO  : Successfully done setting XSCT server connection channel  
+21:31:49 INFO  : plnx-install-location is set to ''
+21:31:49 INFO  : Successfully done setting workspace for the tool. 
+21:32:00 INFO  : Registering command handlers for Vitis TCF services
+21:32:00 INFO  : Platform repository initialization has completed.
+21:32:05 INFO  : Successfully done query RDI_DATADIR 
+21:34:24 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;ReverseEndianness;dma;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+21:34:24 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+21:34:24 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:34:25 INFO  : Platform 'dma' is added to custom repositories.
+21:34:25 ERROR : 
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:890)
+	at org.eclipse.cdt.core.CCorePlugin$1.run(CCorePlugin.java:945)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.cdt.core.CCorePlugin.createCProject(CCorePlugin.java:930)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createCProject(AppCreationHandler.java:92)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:67)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptorManager.configure(CConfigBasedDescriptorManager.java:160)
+	at org.eclipse.cdt.core.CCorePlugin.mapCProjectOwner(CCorePlugin.java:885)
+	... 20 more
+21:34:26 WARN  : Failed to update project references for project CustomDisplayPeriph
+21:34:26 ERROR : Failed to create application project
+org.eclipse.core.runtime.CoreException: CDT Project already configured
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:150)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+21:34:26 WARN  : Failed to update project references for project custom_display_periph
+21:34:26 WARN  : Failed to update project references for project custom_display_periph_system
+21:37:45 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+21:37:45 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+21:37:45 INFO  : Platform 'DMA' is added to custom repositories.
+21:37:45 ERROR : Failed to openhw "C:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA/export/DMA/hw/DMA.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+21:37:45 ERROR : Failed to create application project
+java.lang.NullPointerException
+	at com.xilinx.sdx.sdk.core.util.SdkPlatformHelper.getCompilerType(SdkPlatformHelper.java:77)
+	at com.xilinx.sdx.sdk.core.model.SdkProjectModel.init(SdkProjectModel.java:56)
+	at com.xilinx.sdx.sdk.core.model.SdkProjectModel.newInstance(SdkProjectModel.java:35)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:74)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+21:37:45 WARN  : Failed to update project references for project CustomDisplayPeriph
+21:37:45 WARN  : Failed to delete platform project 'DMA'.
+21:37:46 WARN  : Failed to update project references for project custom_display_periph
+21:37:46 WARN  : Failed to update project references for project custom_display_periph_system
+21:39:53 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA;DMA_1;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+21:39:53 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+21:39:54 ERROR : Unexpected exception occurred while writing platform project 'DMA' log.
+21:39:54 INFO  : Platform 'DMA_1' is added to custom repositories.
+21:39:54 ERROR : 
+org.eclipse.core.internal.resources.ResourceException(/DMA)[275]: java.lang.Exception: A resource exists with a different case: '/DMA'.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:318)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:296)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:56)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:266)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:252)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createEmptyProject(AppCreationHandler.java:112)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:57)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+21:39:54 ERROR : Failed to create application project
+java.lang.NullPointerException
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.cleanupProject(StandaloneProjectHandler.java:204)
+	at com.xilinx.sdx.sdk.core.gen.StandaloneProjectHandler.createCoreApp(StandaloneProjectHandler.java:149)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.createApplication(AppCreationHandler.java:79)
+	at com.xilinx.sdx.sdk.core.gen.AppCreationHandler.execute(AppCreationHandler.java:69)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.executeInternal(SdkAppCreationHandler.java:75)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.lambda$1(SdkAppCreationHandler.java:67)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2312)
+	at com.xilinx.sdx.sdk.core.SdkAppCreationHandler.execute(SdkAppCreationHandler.java:66)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.createApplicationProject(NewProjectCreationHandler.java:235)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.internalExecute(NewProjectCreationHandler.java:374)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler$1.execute(NewProjectCreationHandler.java:98)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+21:39:54 WARN  : Failed to update project references for project CustomDisplayPeriph
+21:39:54 WARN  : Failed to delete platform project 'DMA_1'.
+21:39:54 WARN  : Failed to update project references for project custom_display_periph
+21:39:54 WARN  : Failed to update project references for project custom_display_periph_system
+21:41:06 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA;DMA_1;DMA_2;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+21:41:06 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+21:41:06 ERROR : Unexpected exception occurred while writing platform project 'DMA_1' log.
+21:41:06 INFO  : Platform 'DMA_2' is added to custom repositories.
+21:41:08 INFO  : Platform 'DMA_2' is added to custom repositories.
+21:41:28 ERROR : An unexpected exception occurred in the module 'reading platform'
+21:41:28 WARN  : Failed to update project references for project CustomDisplayPeriph
+21:41:29 WARN  : Failed to update project references for project custom_display_periph
+21:41:29 WARN  : Failed to update project references for project custom_display_periph_system
+21:41:38 ERROR : An unexpected exception occurred in the module 'reading platform'
+21:41:38 WARN  : Failed to update project references for project CustomDisplayPeriph
+21:41:38 WARN  : Failed to update project references for project custom_display_periph
+21:41:38 WARN  : Failed to update project references for project custom_display_periph_system
+21:42:26 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA_2;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+21:42:26 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;DMA_2|C:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/DMA_2.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+21:42:26 INFO  : Checking for BSP changes to sync application flags for project 'dma_app'...
+21:47:25 INFO  : Example project xaxidma_example_simple_poll_1 has been created successfully.
+21:53:17 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA_2;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+21:53:17 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;DMA_2|C:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/DMA_2.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+21:53:18 INFO  : Checking for BSP changes to sync application flags for project 'xaxidma_example_simple_poll_1'...

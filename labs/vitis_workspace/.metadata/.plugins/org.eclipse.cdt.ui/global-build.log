@@ -1,28 +1,27 @@
-Nothing to build in platform 'CustomDisplayPeriph_1'
-
-16:38:06 **** Incremental Build of configuration Debug for project displays ****
+21:53:14 **** Incremental Build of project DMA_2 ****
+buildplatform.bat 54873 DMA_2 no_domain_build 
+XSDB Server Channel: tcfchan#2
+21:53:18 **** Build of configuration Debug for project xaxidma_example_simple_poll_1 ****
 make all 
-'Building file: ../src/polling.c'
+'Building file: ../src/xaxidma_example_simple_poll.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/polling.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/sw/CustomDisplayPeriph_1/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/polling.d" -MT"src/polling.o" -o "src/polling.o" "../src/polling.c"
-../src/polling.c: In function 'SetCountDownTimer':
-../src/polling.c:276:2: warning: enumeration value 'Stopped' not handled in switch [-Wswitch]
-  276 |  switch(fsmState)
-      |  ^~~~~~
-../src/polling.c:276:2: warning: enumeration value 'Started' not handled in switch [-Wswitch]
-'Finished building: ../src/polling.c'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -IC:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/sw/DMA_2/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.o" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+../src/xaxidma_example_simple_poll.c:86:1: warning: multi-line comment [-Wcomment]
+   86 | //#warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, \
+      | ^
+'Finished building: ../src/xaxidma_example_simple_poll.c'
 ' '
-'Building target: displays.elf'
+'Building target: xaxidma_example_simple_poll_1.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/sw/CustomDisplayPeriph_1/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "displays.elf"  ./src/helloworld.o ./src/platform.o ./src/polling.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: displays.elf'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/sw/DMA_2/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "xaxidma_example_simple_poll_1.elf"  ./src/xaxidma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: xaxidma_example_simple_poll_1.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
-mb-size displays.elf  |tee "displays.elf.size"
+mb-size xaxidma_example_simple_poll_1.elf  |tee "xaxidma_example_simple_poll_1.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  10964	    352	   3108	  14424	   3858	displays.elf
-'Finished building: displays.elf.size'
+   9468	    432	   4980	  14880	   3a20	xaxidma_example_simple_poll_1.elf
+'Finished building: xaxidma_example_simple_poll_1.elf.size'
 ' '
-16:38:07 **** Incremental Build of configuration Debug for project displays_system ****
+21:53:20 **** Build of configuration Debug for project xaxidma_example_simple_poll_1_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,6 @@
+21:42:29 **** Build of configuration Debug for project dma_app_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+21:42:29 Build Finished (took 211ms)
+
