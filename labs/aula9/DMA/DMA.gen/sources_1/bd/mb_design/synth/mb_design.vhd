@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
---Date        : Sun Jun  6 21:04:43 2021
+--Date        : Tue Jun 15 14:45:27 2021
 --Host        : DESKTOP-V8LEL7J running 64-bit major release  (build 9200)
 --Command     : generate_target mb_design.bd
 --Design      : mb_design
@@ -5852,7 +5852,7 @@ entity mb_design is
     usb_uart_txd : out STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of mb_design : entity is "mb_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=mb_design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=45,numReposBlks=31,numNonXlnxBlks=0,numHierBlks=14,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=10,da_board_cnt=10,da_clkrst_cnt=3,da_mb_cnt=1,synth_mode=Global}";
+  attribute CORE_GENERATION_INFO of mb_design : entity is "mb_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=mb_design,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=46,numReposBlks=32,numNonXlnxBlks=0,numHierBlks=14,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=10,da_board_cnt=10,da_clkrst_cnt=7,da_mb_cnt=1,synth_mode=Global}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of mb_design : entity is "mb_design.hwdef";
 end mb_design;
@@ -6291,6 +6291,28 @@ architecture STRUCTURE of mb_design is
     m_axis_tlast : out STD_LOGIC
   );
   end component mb_design_axis_data_fifo_0_0;
+  component mb_design_ReverseEndiannessCop_0_0 is
+  port (
+    s00_axis_aclk : in STD_LOGIC;
+    s00_axis_aresetn : in STD_LOGIC;
+    s00_axis_tready : out STD_LOGIC;
+    s00_axis_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    s00_axis_tstrb : in STD_LOGIC_VECTOR ( 3 downto 0 );
+    s00_axis_tlast : in STD_LOGIC;
+    s00_axis_tvalid : in STD_LOGIC;
+    m00_axis_aclk : in STD_LOGIC;
+    m00_axis_aresetn : in STD_LOGIC;
+    m00_axis_tvalid : out STD_LOGIC;
+    m00_axis_tdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    m00_axis_tstrb : out STD_LOGIC_VECTOR ( 3 downto 0 );
+    m00_axis_tlast : out STD_LOGIC;
+    m00_axis_tready : in STD_LOGIC
+  );
+  end component mb_design_ReverseEndiannessCop_0_0;
+  signal ReverseEndiannessCop_0_M00_AXIS_TDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
+  signal ReverseEndiannessCop_0_M00_AXIS_TLAST : STD_LOGIC;
+  signal ReverseEndiannessCop_0_M00_AXIS_TREADY : STD_LOGIC;
+  signal ReverseEndiannessCop_0_M00_AXIS_TVALID : STD_LOGIC;
   signal axi_dma_0_M_AXIS_MM2S_TDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal axi_dma_0_M_AXIS_MM2S_TKEEP : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal axi_dma_0_M_AXIS_MM2S_TLAST : STD_LOGIC;
@@ -6350,7 +6372,6 @@ architecture STRUCTURE of mb_design is
   signal axi_uartlite_0_UART_TxD : STD_LOGIC;
   signal axi_uartlite_0_interrupt : STD_LOGIC;
   signal axis_data_fifo_0_M_AXIS_TDATA : STD_LOGIC_VECTOR ( 31 downto 0 );
-  signal axis_data_fifo_0_M_AXIS_TKEEP : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal axis_data_fifo_0_M_AXIS_TLAST : STD_LOGIC;
   signal axis_data_fifo_0_M_AXIS_TREADY : STD_LOGIC;
   signal axis_data_fifo_0_M_AXIS_TVALID : STD_LOGIC;
@@ -6581,6 +6602,7 @@ architecture STRUCTURE of mb_design is
   signal rst_clk_wiz_1_100M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_clk_wiz_1_100M_peripheral_reset : STD_LOGIC_VECTOR ( 0 to 0 );
   signal sys_clock_1 : STD_LOGIC;
+  signal NLW_ReverseEndiannessCop_0_m00_axis_tstrb_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_axi_dma_0_mm2s_prmry_reset_out_n_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_dma_0_s2mm_prmry_reset_out_n_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_emc_0_mem_cken_UNCONNECTED : STD_LOGIC;
@@ -6593,6 +6615,7 @@ architecture STRUCTURE of mb_design is
   signal NLW_axi_timer_0_generateout0_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_generateout1_UNCONNECTED : STD_LOGIC;
   signal NLW_axi_timer_0_pwm0_UNCONNECTED : STD_LOGIC;
+  signal NLW_axis_data_fifo_0_m_axis_tkeep_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_rst_clk_wiz_1_100M_interconnect_aresetn_UNCONNECTED : STD_LOGIC_VECTOR ( 0 to 0 );
   attribute BMM_INFO_PROCESSOR : string;
   attribute BMM_INFO_PROCESSOR of microblaze_0 : label is "microblaze-le > mb_design microblaze_0_local_memory/dlmb_bram_if_cntlr";
@@ -6643,6 +6666,23 @@ begin
   seven_seg_led_an_tri_o(7 downto 0) <= axi_gpio_3_GPIO_TRI_O(7 downto 0);
   sys_clock_1 <= sys_clock;
   usb_uart_txd <= axi_uartlite_0_UART_TxD;
+ReverseEndiannessCop_0: component mb_design_ReverseEndiannessCop_0_0
+     port map (
+      m00_axis_aclk => microblaze_0_Clk,
+      m00_axis_aresetn => rst_clk_wiz_1_100M_peripheral_aresetn(0),
+      m00_axis_tdata(31 downto 0) => ReverseEndiannessCop_0_M00_AXIS_TDATA(31 downto 0),
+      m00_axis_tlast => ReverseEndiannessCop_0_M00_AXIS_TLAST,
+      m00_axis_tready => ReverseEndiannessCop_0_M00_AXIS_TREADY,
+      m00_axis_tstrb(3 downto 0) => NLW_ReverseEndiannessCop_0_m00_axis_tstrb_UNCONNECTED(3 downto 0),
+      m00_axis_tvalid => ReverseEndiannessCop_0_M00_AXIS_TVALID,
+      s00_axis_aclk => microblaze_0_Clk,
+      s00_axis_aresetn => rst_clk_wiz_1_100M_peripheral_aresetn(0),
+      s00_axis_tdata(31 downto 0) => axis_data_fifo_0_M_AXIS_TDATA(31 downto 0),
+      s00_axis_tlast => axis_data_fifo_0_M_AXIS_TLAST,
+      s00_axis_tready => axis_data_fifo_0_M_AXIS_TREADY,
+      s00_axis_tstrb(3 downto 0) => B"1111",
+      s00_axis_tvalid => axis_data_fifo_0_M_AXIS_TVALID
+    );
 axi_dma_0: component mb_design_axi_dma_0_0
      port map (
       axi_resetn => rst_clk_wiz_1_100M_peripheral_aresetn(0),
@@ -6703,11 +6743,11 @@ axi_dma_0: component mb_design_axi_dma_0_0
       s_axi_lite_wdata(31 downto 0) => microblaze_0_axi_periph_M08_AXI_WDATA(31 downto 0),
       s_axi_lite_wready => microblaze_0_axi_periph_M08_AXI_WREADY,
       s_axi_lite_wvalid => microblaze_0_axi_periph_M08_AXI_WVALID,
-      s_axis_s2mm_tdata(31 downto 0) => axis_data_fifo_0_M_AXIS_TDATA(31 downto 0),
-      s_axis_s2mm_tkeep(3 downto 0) => axis_data_fifo_0_M_AXIS_TKEEP(3 downto 0),
-      s_axis_s2mm_tlast => axis_data_fifo_0_M_AXIS_TLAST,
-      s_axis_s2mm_tready => axis_data_fifo_0_M_AXIS_TREADY,
-      s_axis_s2mm_tvalid => axis_data_fifo_0_M_AXIS_TVALID
+      s_axis_s2mm_tdata(31 downto 0) => ReverseEndiannessCop_0_M00_AXIS_TDATA(31 downto 0),
+      s_axis_s2mm_tkeep(3 downto 0) => B"1111",
+      s_axis_s2mm_tlast => ReverseEndiannessCop_0_M00_AXIS_TLAST,
+      s_axis_s2mm_tready => ReverseEndiannessCop_0_M00_AXIS_TREADY,
+      s_axis_s2mm_tvalid => ReverseEndiannessCop_0_M00_AXIS_TVALID
     );
 axi_emc_0: component mb_design_axi_emc_0_0
      port map (
@@ -6916,7 +6956,7 @@ axi_uartlite_0: component mb_design_axi_uartlite_0_0
 axis_data_fifo_0: component mb_design_axis_data_fifo_0_0
      port map (
       m_axis_tdata(31 downto 0) => axis_data_fifo_0_M_AXIS_TDATA(31 downto 0),
-      m_axis_tkeep(3 downto 0) => axis_data_fifo_0_M_AXIS_TKEEP(3 downto 0),
+      m_axis_tkeep(3 downto 0) => NLW_axis_data_fifo_0_m_axis_tkeep_UNCONNECTED(3 downto 0),
       m_axis_tlast => axis_data_fifo_0_M_AXIS_TLAST,
       m_axis_tready => axis_data_fifo_0_M_AXIS_TREADY,
       m_axis_tvalid => axis_data_fifo_0_M_AXIS_TVALID,

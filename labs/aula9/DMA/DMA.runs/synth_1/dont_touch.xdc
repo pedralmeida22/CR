@@ -67,6 +67,15 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_f
 # IP: bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axi_emc_0_0 || ORIG_REF_NAME==mb_design_axi_emc_0_0} -quiet] -quiet
 
+# IP: bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] -quiet
+
+# IP: bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axis_data_fifo_0_0 || ORIG_REF_NAME==mb_design_axis_data_fifo_0_0} -quiet] -quiet
+
+# IP: bd/mb_design/ip/mb_design_ReverseEndiannessCop_0_0/mb_design_ReverseEndiannessCop_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_ReverseEndiannessCop_0_0 || ORIG_REF_NAME==mb_design_ReverseEndiannessCop_0_0} -quiet] -quiet
+
 # IP: bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_auto_pc_8 || ORIG_REF_NAME==mb_design_auto_pc_8} -quiet] -quiet
 
@@ -93,12 +102,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_a
 
 # IP: bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_auto_pc_7 || ORIG_REF_NAME==mb_design_auto_pc_7} -quiet] -quiet
-
-# IP: bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] -quiet
-
-# IP: bd/mb_design/ip/mb_design_axis_data_fifo_0_0/mb_design_axis_data_fifo_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_design_axis_data_fifo_0_0 || ORIG_REF_NAME==mb_design_axis_data_fifo_0_0} -quiet] -quiet
 
 # XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_microblaze_0_0 || ORIG_REF_NAME==mb_design_microblaze_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
@@ -187,6 +190,12 @@ set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filte
 
 # XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_ooc.xdc
 
+# XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
 # XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_ooc.xdc
 
 # XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_ooc.xdc
@@ -205,10 +214,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filte
 
 # XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_ooc.xdc
 
-# XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc
-set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
-
-# XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc
-#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==mb_design_axi_dma_0_0 || ORIG_REF_NAME==mb_design_axi_dma_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
-
-# XDC: C:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/mb_design_ooc.xdc
+# XDC: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/mb_design_ooc.xdc

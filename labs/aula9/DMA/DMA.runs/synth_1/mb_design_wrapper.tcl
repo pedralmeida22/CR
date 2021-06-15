@@ -83,6 +83,11 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys4:part0:1.1 [current_project]
+set_property ip_repo_paths {
+  c:/Users/pedra/Documents/CR/labs/aula9/ip_repo/ReverseEndiannessCoprocessor_1.0
+  c:/Users/pedra/Documents/CR/labs/aula9/ip_repo/ReverseEndianessCop_1.0
+} [current_project]
+update_ip_catalog
 set_property ip_output_repo c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
@@ -122,6 +127,8 @@ set_property used_in_implementation false [get_files -all c:/Users/pedra/Documen
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_0/mb_design_axi_emc_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_8/mb_design_auto_pc_8_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_0/mb_design_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_1/mb_design_auto_pc_1_ooc.xdc]
@@ -131,9 +138,7 @@ set_property used_in_implementation false [get_files -all c:/Users/pedra/Documen
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_5/mb_design_auto_pc_5_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_6/mb_design_auto_pc_6_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_auto_pc_7/mb_design_auto_pc_7_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all C:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/mb_design_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/mb_design_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/data/mb_bootloop_le.elf]
 
 OPTRACE "Adding files" END { }

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun 15 14:21:08 2021
+# Process ID: 10160
+# Current directory: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.tmp/reverseendianesscop_v1_0_project/ReverseEndianessCop_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log ReverseEndianessCop_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ReverseEndianessCop_v1_0.tcl
+# Log file: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.tmp/reverseendianesscop_v1_0_project/ReverseEndianessCop_v1_0_project.runs/synth_1/ReverseEndianessCop_v1_0.vds
+# Journal file: c:/Users/pedra/Documents/CR/labs/aula9/DMA/DMA.tmp/reverseendianesscop_v1_0_project/ReverseEndianessCop_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ReverseEndianessCop_v1_0.tcl -notrace

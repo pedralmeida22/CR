@@ -28,13 +28,13 @@ vlib questa_lib/msim/axi_timer_v2_0_24
 vlib questa_lib/msim/fit_timer_v2_0_10
 vlib questa_lib/msim/emc_common_v3_0_5
 vlib questa_lib/msim/axi_emc_v3_0_22
-vlib questa_lib/msim/axi_protocol_converter_v2_1_22
 vlib questa_lib/msim/lib_fifo_v1_0_14
 vlib questa_lib/msim/axi_datamover_v5_1_24
 vlib questa_lib/msim/axi_sg_v4_1_13
 vlib questa_lib/msim/axi_dma_v7_1_23
 vlib questa_lib/msim/axis_infrastructure_v1_1_0
 vlib questa_lib/msim/axis_data_fifo_v2_0_4
+vlib questa_lib/msim/axi_protocol_converter_v2_1_22
 
 vmap xpm questa_lib/msim/xpm
 vmap microblaze_v11_0_4 questa_lib/msim/microblaze_v11_0_4
@@ -63,13 +63,13 @@ vmap axi_timer_v2_0_24 questa_lib/msim/axi_timer_v2_0_24
 vmap fit_timer_v2_0_10 questa_lib/msim/fit_timer_v2_0_10
 vmap emc_common_v3_0_5 questa_lib/msim/emc_common_v3_0_5
 vmap axi_emc_v3_0_22 questa_lib/msim/axi_emc_v3_0_22
-vmap axi_protocol_converter_v2_1_22 questa_lib/msim/axi_protocol_converter_v2_1_22
 vmap lib_fifo_v1_0_14 questa_lib/msim/lib_fifo_v1_0_14
 vmap axi_datamover_v5_1_24 questa_lib/msim/axi_datamover_v5_1_24
 vmap axi_sg_v4_1_13 questa_lib/msim/axi_sg_v4_1_13
 vmap axi_dma_v7_1_23 questa_lib/msim/axi_dma_v7_1_23
 vmap axis_infrastructure_v1_1_0 questa_lib/msim/axis_infrastructure_v1_1_0
 vmap axis_data_fifo_v2_0_4 questa_lib/msim/axis_data_fifo_v2_0_4
+vmap axi_protocol_converter_v2_1_22 questa_lib/msim/axi_protocol_converter_v2_1_22
 
 vlog -work xpm  -sv "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \
 "C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
@@ -201,7 +201,6 @@ vcom -work fit_timer_v2_0_10  -93 \
 
 vcom -work xil_defaultlib  -93 \
 "../../../bd/mb_design/ip/mb_design_fit_timer_0_0/sim/mb_design_fit_timer_0_0.vhd" \
-"../../../bd/mb_design/sim/mb_design.vhd" \
 
 vcom -work emc_common_v3_0_5  -93 \
 "../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ea80/hdl/emc_common_v3_0_vh_rfs.vhd" \
@@ -211,20 +210,6 @@ vcom -work axi_emc_v3_0_22  -93 \
 
 vcom -work xil_defaultlib  -93 \
 "../../../bd/mb_design/ip/mb_design_axi_emc_0_0/sim/mb_design_axi_emc_0_0.vhd" \
-
-vlog -work axi_protocol_converter_v2_1_22  "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \
-"../../../../DMA.gen/sources_1/bd/mb_design/ipshared/5cee/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
-
-vlog -work xil_defaultlib  "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_8/sim/mb_design_auto_pc_8.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_0/sim/mb_design_auto_pc_0.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_1/sim/mb_design_auto_pc_1.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_2/sim/mb_design_auto_pc_2.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_3/sim/mb_design_auto_pc_3.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_4/sim/mb_design_auto_pc_4.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_5/sim/mb_design_auto_pc_5.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_6/sim/mb_design_auto_pc_6.v" \
-"../../../bd/mb_design/ip/mb_design_auto_pc_7/sim/mb_design_auto_pc_7.v" \
 
 vcom -work lib_fifo_v1_0_14  -93 \
 "../../../../DMA.gen/sources_1/bd/mb_design/ipshared/a5cb/hdl/lib_fifo_v1_0_rfs.vhd" \
@@ -249,6 +234,29 @@ vlog -work axis_data_fifo_v2_0_4  "+incdir+../../../../DMA.gen/sources_1/bd/mb_d
 
 vlog -work xil_defaultlib  "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \
 "../../../bd/mb_design/ip/mb_design_axis_data_fifo_0_0/sim/mb_design_axis_data_fifo_0_0.v" \
+
+vcom -work xil_defaultlib  -93 \
+"../../../bd/mb_design/ipshared/a1c2/hdl/ReverseEndiannessCoprocessor_v1_0_M00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/a1c2/hdl/ReverseEndiannessCoprocessor_v1_0_S00_AXIS.vhd" \
+"../../../bd/mb_design/ipshared/a1c2/hdl/ReverseEndiannessCoprocessor_v1_0.vhd" \
+"../../../bd/mb_design/ip/mb_design_ReverseEndiannessCop_0_0/sim/mb_design_ReverseEndiannessCop_0_0.vhd" \
+
+vlog -work axi_protocol_converter_v2_1_22  "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \
+"../../../../DMA.gen/sources_1/bd/mb_design/ipshared/5cee/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
+
+vlog -work xil_defaultlib  "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/ec67/hdl" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/d0f7" "+incdir+../../../../DMA.gen/sources_1/bd/mb_design/ipshared/8713/hdl" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_8/sim/mb_design_auto_pc_8.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_0/sim/mb_design_auto_pc_0.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_1/sim/mb_design_auto_pc_1.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_2/sim/mb_design_auto_pc_2.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_3/sim/mb_design_auto_pc_3.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_4/sim/mb_design_auto_pc_4.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_5/sim/mb_design_auto_pc_5.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_6/sim/mb_design_auto_pc_6.v" \
+"../../../bd/mb_design/ip/mb_design_auto_pc_7/sim/mb_design_auto_pc_7.v" \
+
+vcom -work xil_defaultlib  -93 \
+"../../../bd/mb_design/sim/mb_design.vhd" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

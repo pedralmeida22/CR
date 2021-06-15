@@ -1752,3 +1752,16 @@ java.lang.NullPointerException
 21:53:17 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA_2;ReverseEndianness;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
 21:53:17 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;DMA_2|C:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/DMA_2.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
 21:53:18 INFO  : Checking for BSP changes to sync application flags for project 'xaxidma_example_simple_poll_1'...
+15:02:47 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\pedra\Documents\CR\labs\vitis_workspace\temp_xsdb_launch_script.tcl
+15:02:51 INFO  : XSCT server has started successfully.
+15:02:51 INFO  : plnx-install-location is set to ''
+15:02:51 INFO  : Successfully done setting XSCT server connection channel  
+15:02:51 INFO  : Successfully done setting workspace for the tool. 
+15:03:01 INFO  : Platform repository initialization has completed.
+15:03:01 INFO  : Registering command handlers for Vitis TCF services
+15:03:06 INFO  : Successfully done query RDI_DATADIR 
+15:06:08 INFO  : Result from executing command 'getProjects': CustomDisplayPeriph_1;DMA_2;ReverseEndianness;ReverseEndiannessDma;mb_basePlatform;mb_design_custom_periph;mb_design_wrapper;mb_design_wrapper_1
+15:06:08 INFO  : Result from executing command 'getPlatforms': CustomDisplayPeriph_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/CustomDisplayPeriph_1/export/CustomDisplayPeriph_1/CustomDisplayPeriph_1.xpfm;DMA_2|C:/Users/pedra/Documents/CR/labs/vitis_workspace/DMA_2/export/DMA_2/DMA_2.xpfm;ReverseEndianness|C:/Users/pedra/Documents/CR/labs/vitis_workspace/ReverseEndianness/export/ReverseEndianness/ReverseEndianness.xpfm;mb_design_custom_periph|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_custom_periph/export/mb_design_custom_periph/mb_design_custom_periph.xpfm;mb_design_wrapper_1|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper_1/export/mb_design_wrapper_1/mb_design_wrapper_1.xpfm;mb_design_wrapper|C:/Users/pedra/Documents/CR/labs/vitis_workspace/mb_design_wrapper/export/mb_design_wrapper/mb_design_wrapper.xpfm
+15:06:08 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:06:08 INFO  : Platform 'ReverseEndiannessDma' is added to custom repositories.
+15:06:11 INFO  : Platform 'ReverseEndiannessDma' is added to custom repositories.
